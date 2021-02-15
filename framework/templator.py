@@ -22,7 +22,7 @@ def render(template_name, folder='templates', **kwargs):
     env = Environment(loader=file_loader)
     template = env.get_template(template_name)
     content = template.render(**kwargs).encode('utf-8')
-    print(f'content from render----->{content}')
+    # print(f'content from render----->{content}')
     # # Открываем шаблон по имени
     # file_path = os.path.join(folder, template_name)
     # # print(f'from render, file_path: {file_path}')

@@ -13,8 +13,16 @@
 <div class="container">
     <div class="header">
         <p>Тестовая страница</p>
+        <br><hr>
 
         {% include 'menu.html' %}
+        <br><hr>
+        {% if get_params %}
+
+        <h3> пришли данные GET запроса:</h3>
+        <h3>{{ get_params }}</h3>
+        <hr><br>
+        {% endif %}
 
     </div>
     <div class="content">

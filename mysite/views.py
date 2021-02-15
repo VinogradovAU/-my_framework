@@ -10,22 +10,32 @@ except Exception as e:
 def index_view(request):
     secret = request.get('secret', None)
     urls = request.get('urls', None)
+    get_params = request.get('get_params', None)
     # Используем шаблонизатор
-    return '200 OK', [render('index.html', secret=secret, urls=urls)]
+    return '200 OK', [render('index.html',
+                             secret=secret,
+                             urls=urls,
+                             get_params=get_params)]
 
 
 def contacts_view(request):
     value = request.get('value', None)
     urls = request.get('urls', None)
+    get_params = request.get('get_params', None)
     # Используем шаблонизатор
-    return '200 OK', [render('contacts.html', value=value, urls=urls)]
+    return '200 OK', [render('contacts.html',
+                             value=value,
+                             urls=urls,
+                             get_params=get_params)]
 
 
 def services_view(request):
     urls = request.get('urls', None)
-    return '200 OK', [render('contacts.html', value=services_view, urls=urls)]
-
-
+    get_params = request.get('get_params', None)
+    return '200 OK', [render('services.html',
+                             value=services_view,
+                             urls=urls,
+                             get_params=get_params)]
 
 class Other:
     def __call__(self, request):
