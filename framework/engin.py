@@ -45,13 +45,12 @@
 #
 # fronts = [secret_front, other_front]
 
-
-# функция исправляем проблемы кодировки кирилических символов
 import quopri
 
 import views
 
 
+# функция исправляет проблемы кодировки кирилических символов
 def decode_value(val):
     val_b = bytes(val.replace('%', '=').replace("+", " "), 'UTF-8')
     val_decode_str = quopri.decodestring(val_b)
@@ -138,7 +137,7 @@ class Application():
         # добавим POST параметры в request
         if get_post_dict:
             request['post_params'] = get_post_dict
-            print('-'*100)
+            print('-' * 100)
             print(f'POST data: {get_post_dict}')
             print('-' * 100)
             print(f'Приняты POST данные:')
