@@ -18,8 +18,9 @@ except Exception as e:
 urlpatterns = {
     '/': views.index_view,
     '/contacts/': views.contacts_view,
-    '/services/': views.services_view,
-    '/other/': views.Other()
+    '/categories/': views.categories_view,
+    '/courses/': views.Courses(),
+    '/style.css': views.css_view
 }
 
 
@@ -28,12 +29,19 @@ def secret_front(request):
     request['secret'] = 'some secret'
     request['value'] = datetime.datetime.now()  # значение даты для вывода в копирайт
 
+
 def urls_list_front(request):
     request['urls'] = list(urlpatterns.keys())
 
+
+def css_list_front(request):
+    request['css_list'] = "/style.css"
+
+
 front_controllers = [
     secret_front,
-    urls_list_front
+    urls_list_front,
+    css_list_front,
 ]
 
 application = Application(urlpatterns, front_controllers)

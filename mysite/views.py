@@ -11,11 +11,12 @@ def index_view(request):
     secret = request.get('secret', None)
     urls = request.get('urls', None)
     get_params = request.get('get_params', None)
+    css_url = request.get('css_url', None)
     # Используем шаблонизатор
     return '200 OK', [render('index.html',
                              secret=secret,
                              urls=urls,
-                             get_params=get_params)]
+                             get_params=get_params, css_url=css_url)]
 
 
 def contacts_view(request):
@@ -29,23 +30,31 @@ def contacts_view(request):
                              get_params=get_params)]
 
 
-def services_view(request):
+def categories_view(request):
     urls = request.get('urls', None)
     get_params = request.get('get_params', None)
-    return '200 OK', [render('services.html',
-                             value=services_view,
+    return '200 OK', [render('categories.html',
+                             value="categories_view",
                              urls=urls,
                              get_params=get_params)]
 
-class Other:
+def css_view(request):
+    print(f'i am in css_view')
+    return '200 OK', [render('/templates/style.css')]
+
+
+class Courses:
     def __call__(self, request):
         urls = request.get('urls', None)
-        html = '<h1>Menu</h1>'
-        for item in urls:
-            html = html + f'<li><a href="{item}">{item}</a></li>'
-
-        return '200 OK', [html.encode('utf-8')]
-
+        get_params = request.get('get_params', None)
+        # html = '<h1>Menu</h1>'
+        # for item in urls:
+        #     html = html + f'<li><a href="{item}">{item}</a></li>'
+        # return '200 OK', [html.encode('utf-8')]
+        return '200 OK', [render('courses.html',
+                                     value="courses_view",
+                                     urls=urls,
+                                     get_params=get_params)]
 
 def error_404_view(request):
     print(request)
