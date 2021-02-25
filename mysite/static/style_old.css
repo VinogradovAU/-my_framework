@@ -9,8 +9,8 @@ html {
     width: 100%;
 }
 
-.conteiner {
-    max-width: 1920px;
+.container {
+    max-width: 1600px;
     min-width: 600px;
     height: 725px;
     background-image: url(img/2.png);
@@ -28,9 +28,22 @@ html {
     width: 100%;
     min-height: 83px;
     opacity: 0.5;
-    background-color: #000000;
+    background-color: #005296d6;
     margin: 0 auto;
 }
+
+.menu {
+    font-size: 150%;
+}
+
+.menu a {
+    color: red; /* Цвет ссылок */
+   }
+   a:visited {
+    color: #cecece; /* Цвет посещенных ссылок */
+   }
+   a:active {
+    color: #ffff00; /* Цвет активных ссылок */
 
 .content {
     margin: 0 auto;

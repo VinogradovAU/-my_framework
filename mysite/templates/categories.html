@@ -9,5 +9,18 @@
 {% block content %}
 <h1>Страница категорий</h1>
 <h2>{{value}}</h2>
+        {% if not categories %}
+        <h2>Категории еще не созданы</h2>
+        {% endif %}
+
+        <table class="mytable">
+
+            {% for item in categories %}
+            <tr><td>{{item.id}}--->{{item.name}}</td></tr>
+            {% endfor %}
+
+        </table>
+
+
 {% endblock %}
 

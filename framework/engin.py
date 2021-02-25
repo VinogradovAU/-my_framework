@@ -1,53 +1,8 @@
-# page controller
-# def index_view(request):
-#     print(request)
-#     return '200 OK', [b'index_view']
-#
-#
-# def contacts_view(request):
-#     print(request)
-#     return '200 OK', [b'contacts_view']
-#
-#
-# def services_view(request):
-#     print(request)
-#     return '200 OK', [b'services_view']
-#
-#
-# def error_404_view(request):
-#     print(request)
-#     return '404 ERROR', [b'error_404_view']
-#
-#
-# class Other:
-#     def __call__(self, request):
-#         print(request)
-#         return '200 OK', [b'<h1>other_view</h1>']
-#
-#
-# routes = {
-#     '/': index_view,
-#     '/contacts/': contacts_view,
-#     '/services/': services_view,
-#     '/other/': Other()
-# }
-#
-#
-# # Front controllers
-#
-# def secret_front(request):
-#     request['secret'] = 'some secret'
-#
-#
-# def other_front(request):
-#     request['other_key'] = 'key'
-#
-#
-# fronts = [secret_front, other_front]
-
 import quopri
-
 import views
+from logging_mod import Logger
+
+logger = Logger('core')
 
 
 # функция исправляет проблемы кодировки кирилических символов
@@ -62,6 +17,13 @@ class Application():
         self.routes = routes
         self.fronts = fronts
 
+    def add_route(self, url):
+        # паттерн-декоратор
+        def inner(view):
+            self.routes[url] = view
+
+        return inner
+
     def parse_input_data(self, data):
         result = {}
         if data:
@@ -73,7 +35,7 @@ class Application():
                 result[k] = v
         return result
 
-    # функция читаем байны - POST из запроса
+    # функция читаем байты - POST из запроса
     def get_wsgi_input_data(self, environ):
         # получаем длину тела
         content_length_data = environ.get('CONTENT_LENGTH')
@@ -120,7 +82,7 @@ class Application():
                 path = path + '/'
 
         if path in self.routes:
-            # print(f'-----------> {self.routes[path]}')
+            print(f'-----------> {self.routes[path]}')
             view = self.routes[path]
         else:
             view = views.error_404_view
@@ -136,6 +98,8 @@ class Application():
 
         # добавим POST параметры в request
         if get_post_dict:
+            for k in get_post_dict:
+                get_post_dict[k] = decode_value(get_post_dict[k])
             request['post_params'] = get_post_dict
             print('-' * 100)
             print(f'POST data: {get_post_dict}')
@@ -149,7 +113,11 @@ class Application():
             front(request)
 
         code, body = view(request)
-        start_response(code, [('Content-Type', 'text/html')])
+
+        if code == '222 OK':
+            start_response(code, [('Content-Type', 'text/css')])
+        else:
+            start_response(code, [('Content-Type', 'text/html')])
 
         return body
 
@@ -169,4 +137,35 @@ class Application():
         #     start_response('ERROR 404', [('Content-Type', 'text/html')])
         #     return [b'path is not recognized']
 
+
 # application = Application(routes, fronts)
+
+if __name__ == '__main__':
+    urlpatterns = {
+        '/': views.index_view,
+        '/contacts/': views.contacts_view,
+        '/categories/': views.categories_view,
+    }
+
+
+    def css_list_front(request):
+        request['css_list'] = "/style.css"
+
+
+    front_controllers = [
+        css_list_front,
+    ]
+    application = Application(urlpatterns, front_controllers)
+
+
+    @application.add_route('/test_url/')
+    def func_test(request):
+        return request
+
+
+    for k in urlpatterns.keys():
+        print(k, ':', urlpatterns[k].__name__)
+
+    view = urlpatterns['/test_url/']
+    print(view.__name__)
+    print(f"Результат функции func_test: {view('test_request')}")

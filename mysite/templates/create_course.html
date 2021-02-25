@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+     {% block title %}
+        <title>
+            Создание курса
+        </title>
+     {% endblock %}
+
+    {% block js %}
+    <script>
+        var select = document.getElementById("select_id");
+
+        select.addEventListener('change', function (e) {
+          console.log("Changed to: " + e.target.value)
+        })
+    </script>
+    {% endblock %}
+
+{% block content %}
+<h1>Создание курса</h1>
+<h2>{{value}}</h2>
+<br>
+<form method="post" class="new_form">
+    <h1>Выберите категорию</h1>
+    <select id="course" size="1" name="category_id">
+        {% for item in categories %}
+        <option value="{{item.id}}">{{item.name}}</option>
+        {% endfor %}
+        {% if not categories %}
+        <option value="-1">НЕТ ДОСТУПНЫХ КАТЕГОРИЙ</option>
+        {% endif %}
+    </select>
+    <br>
+    <h3>Укажите способ проведения курса:</h3>
+    <select id="select_id" size="1" name="on_off_line">
+        <option selected value="0">ONLINE</option>
+        <option value="1">OFFLINE</option>
+    </select>
+    <br>
+     {% if categories %}
+        <input type="text" name="name" placeholder="Название курса" required>
+        <button type="submit">Сохранить</button>
+    {% endif %}
+
+</form>
+{% endblock %}

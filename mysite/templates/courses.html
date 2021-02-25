@@ -9,5 +9,18 @@
 {% block content %}
 <h1>Страница курсов</h1>
 <h2>{{value}}</h2>
+        {% if not categories %}
+        <h2 style="color: red;">НЕТ ДОСТУПНЫХ КУРСОВ</h2>
+        {% endif %}
+        <table class="mytable">
+
+            {% for item in categories %}
+                {% for course in item.courses %}
+                    <tr><td>{{item.id}}--->{{item.name}}</td><td>{{course.name}}</td></tr>
+                {% endfor %}
+            {% endfor %}
+
+        </table>
+
 {% endblock %}
 

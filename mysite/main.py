@@ -1,11 +1,18 @@
 import datetime
 import sys
 import os
+from logging_mod import Logger
+logger = Logger('main')
+
+
+
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(BASE_DIR)
 sys.path.append(os.path.join(BASE_DIR, 'framework'))
 print(sys.path)
+
+
 
 try:
 
@@ -19,8 +26,10 @@ urlpatterns = {
     '/': views.index_view,
     '/contacts/': views.contacts_view,
     '/categories/': views.categories_view,
+    '/create_category/': views.create_category,
     '/courses/': views.Courses(),
-    '/style.css': views.css_view
+    '/create_course/': views.create_course,
+    '/style.css/': views.css_view,
 }
 
 
@@ -28,6 +37,7 @@ urlpatterns = {
 def secret_front(request):
     request['secret'] = 'some secret'
     request['value'] = datetime.datetime.now()  # значение даты для вывода в копирайт
+    logger.log('----> Отработал secret_front')
 
 
 def urls_list_front(request):
@@ -36,6 +46,7 @@ def urls_list_front(request):
 
 def css_list_front(request):
     request['css_list'] = "/style.css"
+
 
 
 front_controllers = [
