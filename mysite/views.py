@@ -1,18 +1,30 @@
 try:
     from templator import render
     import datetime
+
 except Exception as e:
     print(f'Error import module {e}')
     exit(1)
 
-from logging_mod import Logger
+import logging_mod
+
 from models import TrainingSite
 
-logger = Logger('views')
+logger = logging_mod.Logger('views')
 site = TrainingSite()
+urlpatterns = {}
+
+def add_route(url):
+    # паттерн-декоратор
+    def inner(view):
+        urlpatterns[url] = view
+
+    return inner
 
 
 # page controller
+@add_route('/')
+@logging_mod.debug
 def index_view(request):
     secret = request.get('secret', None)
     urls = request.get('urls', None)
@@ -26,6 +38,8 @@ def index_view(request):
                              get_params=get_params, css_url=css_url)]
 
 
+@logging_mod.debug
+@add_route('/contacts/')
 def contacts_view(request):
     value = request.get('value', None)
     urls = request.get('urls', None)
@@ -36,7 +50,8 @@ def contacts_view(request):
                              urls=urls,
                              get_params=get_params)]
 
-
+@logging_mod.debug
+@add_route('/categories/')
 def categories_view(request):
     urls = request.get('urls', None)
     return '200 OK', [render('categories.html',
@@ -44,7 +59,8 @@ def categories_view(request):
                              urls=urls,
                              categories=site.categories)]
 
-
+# @application.add_route('/style.css/')
+@logging_mod.debug
 def css_view(request):
     print(f'i am in css_view')
     return '222 OK', [render('style.css', folder='./static/')]
@@ -58,9 +74,9 @@ class Courses:
         return '200 OK', [render('courses.html',
                                  value="courses_view",
                                  urls=urls,
-                                 categories=site.categories)]
+                                 courses=site.courses)]
 
-
+@add_route('/create_course/')
 def create_course(request):
     urls = request.get('urls', None)
     print(f'я в create_course view')
@@ -75,8 +91,8 @@ def create_course(request):
             type_of_course = 'interactive'
             if request["post_params"]['on_off_line']:
                 type_of_course = 'OfflineCourse'
-            site.create_course(type_of_course, request['post_params']['name'], cat_obj)
-
+            course = site.create_course(type_of_course, request['post_params']['name'], cat_obj)
+            site.courses.append(course)
             logger.log(f"В категорию {cat_obj.name} добавлен курс {request['post_params']['name']}")
             return '200 OK', [render('create_course.html',
                                      value=f"В категорию {cat_obj.name} добавлен курс {request['post_params']['name']}",
@@ -90,7 +106,7 @@ def create_course(request):
                              urls=urls,
                              categories=site.categories,)]
 
-
+@add_route('/create_category/')
 def create_category(request):
     urls = request.get('urls', None)
     try:
@@ -124,13 +140,35 @@ def create_category(request):
                              urls=urls,
                              categories=site.categories)]
 
-
+@add_route('/copy-course/')
 def copy_course(request):
+    logger.log(f'Внутри copy_course')
     urls = request.get('urls', None)
-    return '200 OK', [render('copy_course.html',
-                             value="copy_course",
-                             urls=urls)]
-
+    print(f'request------>{request}')
+    if request['post_params']:
+        post_data = request['post_params']
+        old_course = post_data['name']
+        logger.log(f'Ищем курс с именем --> {old_course}')
+        source_course_obj = site.get_course(old_course)
+        logger.log(f'Поиск вернул объект --> {source_course_obj}')
+        if source_course_obj:
+            new_name = f'copy_{old_course}'
+            new_course = source_course_obj.clone()
+            new_course.name = new_name
+            site.courses.append(new_course)
+            logger.log(f'создана копия курса --> {new_course}')
+            return '200 OK', [render('courses.html',
+                                     value="courses_view",
+                                     urls=urls,
+                                     courses=site.courses)]
+        else:
+            logger.log(f'Не удалось создать комию курса {old_course}')
+            return '200 OK', [render('courses.html',
+                                     value="courses_view",
+                                     urls=urls,
+                                     courses=site.courses)]
+    else:
+        error_404_view(request)
 
 def error_404_view(request):
     print(request)

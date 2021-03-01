@@ -1,11 +1,11 @@
+from wsgiref.simple_server import make_server
+
 import datetime
 import sys
 import os
 from logging_mod import Logger
+import urls
 logger = Logger('main')
-
-
-
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(BASE_DIR)
@@ -13,24 +13,13 @@ sys.path.append(os.path.join(BASE_DIR, 'framework'))
 print(sys.path)
 
 
-
 try:
 
-    from engin import Application
+    from engin import Application, DebugApplication, FakeApplication
     import views
 except Exception as e:
     print(f'Error import module {e}')
     exit(1)
-
-urlpatterns = {
-    '/': views.index_view,
-    '/contacts/': views.contacts_view,
-    '/categories/': views.categories_view,
-    '/create_category/': views.create_category,
-    '/courses/': views.Courses(),
-    '/create_course/': views.create_course,
-    '/style.css/': views.css_view,
-}
 
 
 # Front Controller
@@ -41,7 +30,7 @@ def secret_front(request):
 
 
 def urls_list_front(request):
-    request['urls'] = list(urlpatterns.keys())
+    request['urls'] = list(urls.urlpatterns.keys())
 
 
 def css_list_front(request):
@@ -55,4 +44,18 @@ front_controllers = [
     css_list_front,
 ]
 
-application = Application(urlpatterns, front_controllers)
+# ОСНОВНОЙ ЗАПУСК
+application = Application(urls.urlpatterns, front_controllers)
+
+
+# альтернативный запуск приложения
+# application = DebugApplication(urls.urlpatterns, front_controllers)
+
+# application = FakeApplication(urls.urlpatterns, front_controllers)
+
+
+with make_server('', 8000, application) as httpd:
+    print("Serving HTTP on port 8000...")
+
+    # Respond to requests until process is killed
+    httpd.serve_forever()

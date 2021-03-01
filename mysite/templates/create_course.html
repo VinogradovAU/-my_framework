@@ -8,7 +8,8 @@
 
     {% block js %}
     <script>
-        var select = document.getElementById("select_id");
+        "use strict";
+        const select = document.getElementsByClassName('select_id');
 
         select.addEventListener('change', function (e) {
           console.log("Changed to: " + e.target.value)
@@ -32,7 +33,7 @@
     </select>
     <br>
     <h3>Укажите способ проведения курса:</h3>
-    <select id="select_id" size="1" name="on_off_line">
+    <select class="select_id" size="1" name="on_off_line">
         <option selected value="0">ONLINE</option>
         <option value="1">OFFLINE</option>
     </select>

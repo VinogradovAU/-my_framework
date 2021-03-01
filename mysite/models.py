@@ -110,6 +110,7 @@ class TrainingSite:
 
     def get_course(self, name) -> Course:
         for item in self.courses:
+            logger.log(f'найден объект курса {item} с именем {item.name}')
             if item.name == name:
                 return item
         return None

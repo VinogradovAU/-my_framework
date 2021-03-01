@@ -1,1248 +1,466 @@
 
- + Wed Feb 24 17:18:42 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 17:18:42 2021 [views] + ----> Отработал index_view
- + Wed Feb 24 17:18:42 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 17:18:44 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 17:18:44 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:12:34 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:12:34 2021 [views] + ----> Отработал index_view
- + Wed Feb 24 21:12:34 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:12:35 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:12:35 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:12:39 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:12:39 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:12:41 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:12:41 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:12:45 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:12:45 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:12:46 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:12:54 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:13:07 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:13:07 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:34:59 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:43:23 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:43:23 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:43:27 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:43:50 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:43:50 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:44:10 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:45:12 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:46:30 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:50:20 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:50:20 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:50:20 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:50:22 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:50:22 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:50:22 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:50:27 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:50:28 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:50:28 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:50:29 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:50:29 2021 [views] + ----> Отработал index_view
- + Wed Feb 24 21:50:29 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:50:29 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:50:29 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:50:29 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:50:29 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 21:53:06 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:01:42 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:01:42 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:01:42 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:01:47 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:01:47 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:01:47 2021 [views] + ----> Отработал index_view
- + Wed Feb 24 22:01:47 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:01:47 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:01:48 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:01:48 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:01:48 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:01:53 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:01:53 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:01:53 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:02:23 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:02:23 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:02:23 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:03:23 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:03:23 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:03:23 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:09:14 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:09:17 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:09:17 2021 [views] + ----> Отработал index_view
- + Wed Feb 24 22:09:17 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:09:18 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:09:18 2021 [views] + ----> Отработал index_view
- + Wed Feb 24 22:09:18 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:09:18 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:09:18 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:09:26 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:13:09 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:13:10 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:14:25 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:14:25 2021 [views] + ----> Отработал index_view
- + Wed Feb 24 22:14:25 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:15:50 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:15:50 2021 [views] + ----> Отработал index_view
- + Wed Feb 24 22:15:50 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:15:50 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:16:03 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:16:03 2021 [views] + ----> Отработал index_view
- + Wed Feb 24 22:16:03 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:16:03 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:16:03 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:16:03 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:16:03 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:16:05 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:16:05 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:16:05 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:16:07 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:16:07 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:16:07 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:16:07 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:16:07 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:16:07 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:16:08 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:16:16 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:16:18 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:16:18 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:16:57 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:16:57 2021 [views] + ----> Отработал index_view
- + Wed Feb 24 22:16:57 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:16:57 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:17:01 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:26:30 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:26:30 2021 [views] + ----> Отработал index_view
- + Wed Feb 24 22:26:30 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:26:30 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:26:48 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:26:48 2021 [views] + ----> Отработал index_view
- + Wed Feb 24 22:26:48 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:26:48 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:26:55 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:26:55 2021 [views] + ----> Отработал index_view
- + Wed Feb 24 22:26:55 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:26:55 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:26:55 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:26:55 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:26:55 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:26:58 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:26:58 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:26:58 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:27:00 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:27:00 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:27:00 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:27:01 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:27:01 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:27:01 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:27:02 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:27:17 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:27:21 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:27:21 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:27:21 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:31:42 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:31:42 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:31:42 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:32:26 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:32:26 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:32:26 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:34:11 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:34:11 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:34:11 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:34:29 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:34:29 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:34:29 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:34:29 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:34:32 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:34:32 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:34:32 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:34:38 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:34:38 2021 [views] + ----> Отработал index_view
- + Wed Feb 24 22:34:38 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:34:38 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:34:40 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:34:40 2021 [views] + ----> Отработал index_view
- + Wed Feb 24 22:34:40 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:34:40 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:34:44 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:34:44 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:34:44 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:34:51 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:34:51 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:34:51 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:35:25 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:35:25 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:35:25 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:38:07 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:38:07 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:38:07 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:38:20 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:38:20 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:38:20 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:38:21 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:38:21 2021 [views] + ----> Отработал index_view
- + Wed Feb 24 22:38:21 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:38:21 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:40:31 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:40:31 2021 [views] + ----> Отработал index_view
- + Wed Feb 24 22:40:31 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:40:31 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:40:33 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:40:33 2021 [views] + ----> Отработал index_view
- + Wed Feb 24 22:40:33 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:40:33 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:40:34 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:40:34 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:40:34 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:40:34 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:40:34 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:40:34 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:40:36 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:40:36 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:40:36 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:40:36 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:40:36 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:40:36 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:40:46 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:40:55 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:40:55 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:40:57 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:40:58 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:40:58 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:40:59 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:40:59 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:40:59 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:41:00 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:41:00 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 22:41:02 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 23:33:24 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 23:33:24 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 23:33:26 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 23:33:26 2021 [views] + ----> Отработал index_view
- + Wed Feb 24 23:33:26 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 23:33:27 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 23:33:27 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 23:33:27 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 23:33:27 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 23:33:29 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 23:35:43 2021 [main] + ----> Отработал secret_front
- + Wed Feb 24 23:35:43 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 13:04:57 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 13:04:57 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 13:04:59 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 13:04:59 2021 [views] + ----> Отработал index_view
- + Thu Feb 25 13:04:59 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 13:05:00 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 13:05:00 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 13:05:01 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 13:05:01 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 13:05:02 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 13:05:02 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 13:05:02 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 13:05:02 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 13:05:04 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 13:05:14 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 13:05:14 2021 [views] + ----> Отработал index_view
- + Thu Feb 25 13:05:14 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 13:05:19 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 13:05:28 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 13:05:28 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 13:05:31 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 13:05:31 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 13:57:17 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 13:57:17 2021 [views] + ----> Отработал index_view
- + Thu Feb 25 13:57:17 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 13:57:19 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 14:00:06 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 14:00:06 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 14:00:12 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 14:00:12 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 14:00:33 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 14:00:33 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
- + Thu Feb 25 14:00:33 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 17:27:34 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 17:27:34 2021 [views] + ----> Отработал index_view
- + Thu Feb 25 17:27:34 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 17:27:36 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 17:31:28 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 17:31:28 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 17:31:34 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 17:31:34 2021 [views] + получены POST данные: {'name': '%D0%A2%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B9+%D1%88%D0%BA%D0%B0%D1%84'}
- + Thu Feb 25 17:31:34 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 17:31:55 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 17:31:55 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 17:32:00 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 17:32:00 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 17:36:33 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 17:36:33 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 17:36:42 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 17:36:42 2021 [model] + Создаем новый объект категории AndryAndry
- + Thu Feb 25 17:36:42 2021 [views] + получены POST данные: {'name': 'AndryAndry'}
- + Thu Feb 25 17:36:42 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 21:41:23 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 21:41:23 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 21:41:23 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 21:43:08 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 21:43:08 2021 [model] + Создаем новый объект категории AndryAndry
- + Thu Feb 25 21:43:08 2021 [views] + получены POST данные: {'name': 'AndryAndry'}
- + Thu Feb 25 21:43:08 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 21:54:23 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 21:54:23 2021 [views] + ----> Отработал index_view
- + Thu Feb 25 21:54:23 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 21:54:25 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 21:54:25 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 21:54:29 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 21:54:29 2021 [model] + Создаем новый объект категории AndryAndry
- + Thu Feb 25 21:54:29 2021 [views] + site.categories--->[<models.Category object at 0x7f08c3913910>]
- + Thu Feb 25 21:54:29 2021 [views] + получены POST данные: {'name': 'AndryAndry'}
- + Thu Feb 25 21:54:29 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 21:56:18 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 21:56:18 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 21:56:25 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 21:56:25 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 21:58:53 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 21:58:53 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 21:59:04 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 21:59:04 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 21:59:09 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 21:59:09 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:01:36 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:01:36 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:01:39 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:01:39 2021 [model] + Создаем новый объект категории AndryAndry
- + Thu Feb 25 22:01:39 2021 [views] + site.categories--->[<models.Category object at 0x7f0c408a1190>]
- + Thu Feb 25 22:01:39 2021 [views] + получены POST данные: {'name': 'AndryAndry'}
- + Thu Feb 25 22:01:39 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:01:42 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:01:42 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:01:50 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:01:50 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:02:00 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:02:00 2021 [model] + Создаем новый объект категории New_cat-1
- + Thu Feb 25 22:02:00 2021 [views] + site.categories--->[<models.Category object at 0x7f0c408a1190>, <models.Category object at 0x7f0c408b30d0>]
- + Thu Feb 25 22:02:00 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
- + Thu Feb 25 22:02:00 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:02:05 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:02:05 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:02:27 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:02:27 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:02:38 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:02:38 2021 [model] + Создаем новый объект категории New_cat-22
- + Thu Feb 25 22:02:38 2021 [views] + site.categories--->[<models.Category object at 0x7f0c408a1190>, <models.Category object at 0x7f0c408b30d0>, <models.Category object at 0x7f0c408a1ca0>]
- + Thu Feb 25 22:02:38 2021 [views] + получены POST данные: {'name': 'New_cat-22'}
- + Thu Feb 25 22:02:38 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:02:41 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:02:41 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:02:46 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:02:46 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:02:49 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:02:49 2021 [views] + Категория уже существует
- + Thu Feb 25 22:02:49 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:02:55 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:02:55 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:04:01 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:04:01 2021 [views] + Категория уже существует
- + Thu Feb 25 22:04:01 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:04:11 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:04:11 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:04:17 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:04:17 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:04:19 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:04:19 2021 [model] + Создаем новый объект категории AndryAndry
- + Thu Feb 25 22:04:19 2021 [views] + site.categories--->[<models.Category object at 0x7ff77f3d2100>]
- + Thu Feb 25 22:04:19 2021 [views] + получены POST данные: {'name': 'AndryAndry'}
- + Thu Feb 25 22:04:19 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:04:24 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:04:24 2021 [model] + Создаем новый объект категории New_cat-1
- + Thu Feb 25 22:04:24 2021 [views] + site.categories--->[<models.Category object at 0x7ff77f3d2100>, <models.Category object at 0x7ff77f3d2790>]
- + Thu Feb 25 22:04:24 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
- + Thu Feb 25 22:04:24 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:04:35 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:04:35 2021 [model] + Создаем новый объект категории super_category
- + Thu Feb 25 22:04:35 2021 [views] + site.categories--->[<models.Category object at 0x7ff77f3d2100>, <models.Category object at 0x7ff77f3d2790>, <models.Category object at 0x7ff77f3d2ee0>]
- + Thu Feb 25 22:04:35 2021 [views] + получены POST данные: {'name': 'super_category'}
- + Thu Feb 25 22:04:35 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:04:40 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:04:40 2021 [views] + Категория уже существует
- + Thu Feb 25 22:04:40 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:04:44 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:04:44 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:05:23 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:05:24 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:20:19 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:20:19 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:20:23 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:20:23 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:20:25 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:20:25 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:21:09 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:21:21 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:21:21 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:21:25 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:21:25 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:21:28 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:21:28 2021 [model] + Создаем новый объект категории AndryAndry
- + Thu Feb 25 22:21:28 2021 [views] + site.categories--->[<models.Category object at 0x7ff77f3d3b20>]
- + Thu Feb 25 22:21:28 2021 [views] + получены POST данные: {'name': 'AndryAndry'}
- + Thu Feb 25 22:21:29 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:21:31 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:21:31 2021 [model] + Создаем новый объект категории New_cat-1
- + Thu Feb 25 22:21:31 2021 [views] + site.categories--->[<models.Category object at 0x7ff77f3d3b20>, <models.Category object at 0x7ff77f3d3df0>]
- + Thu Feb 25 22:21:31 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
- + Thu Feb 25 22:21:31 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:21:35 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:21:35 2021 [views] + Категория уже существует
- + Thu Feb 25 22:21:35 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:21:38 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:21:38 2021 [model] + Создаем новый объект категории newcat-2
- + Thu Feb 25 22:21:38 2021 [views] + site.categories--->[<models.Category object at 0x7ff77f3d3b20>, <models.Category object at 0x7ff77f3d3df0>, <models.Category object at 0x7ff77f389370>]
- + Thu Feb 25 22:21:38 2021 [views] + получены POST данные: {'name': 'newcat-2'}
- + Thu Feb 25 22:21:38 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:21:41 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:21:41 2021 [views] + Категория уже существует
- + Thu Feb 25 22:21:41 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:21:46 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:21:46 2021 [model] + Создаем новый объект категории New_cat-12
- + Thu Feb 25 22:21:46 2021 [views] + site.categories--->[<models.Category object at 0x7ff77f3d3b20>, <models.Category object at 0x7ff77f3d3df0>, <models.Category object at 0x7ff77f389370>, <models.Category object at 0x7ff77f389400>]
- + Thu Feb 25 22:21:46 2021 [views] + получены POST данные: {'name': 'New_cat-12'}
- + Thu Feb 25 22:21:46 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:21:49 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:21:49 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:21:59 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:22:37 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:22:43 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:22:43 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:22:44 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:22:44 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:22:47 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:22:47 2021 [model] + Создаем новый объект категории AndryAndry
- + Thu Feb 25 22:22:47 2021 [views] + site.categories--->[<models.Category object at 0x7ff77f3d4b20>]
- + Thu Feb 25 22:22:47 2021 [views] + получены POST данные: {'name': 'AndryAndry'}
- + Thu Feb 25 22:22:47 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:22:50 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:22:50 2021 [model] + Создаем новый объект категории New_cat-1
- + Thu Feb 25 22:22:50 2021 [views] + site.categories--->[<models.Category object at 0x7ff77f3d4b20>, <models.Category object at 0x7ff77f3d4df0>]
- + Thu Feb 25 22:22:50 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
- + Thu Feb 25 22:22:50 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:22:52 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:22:52 2021 [model] + Создаем новый объект категории newcat-2
- + Thu Feb 25 22:22:52 2021 [views] + site.categories--->[<models.Category object at 0x7ff77f3d4b20>, <models.Category object at 0x7ff77f3d4df0>, <models.Category object at 0x7ff77f389220>]
- + Thu Feb 25 22:22:52 2021 [views] + получены POST данные: {'name': 'newcat-2'}
- + Thu Feb 25 22:22:52 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:22:53 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:22:53 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:23:07 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:23:30 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:23:34 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:24:34 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:24:38 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:24:38 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:27:45 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:27:45 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:27:51 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:27:51 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:28:23 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:28:23 2021 [model] + Создаем новый объект категории AndryAndry
- + Thu Feb 25 22:28:23 2021 [views] + site.categories--->[<models.Category object at 0x7ff77f3ddf40>]
- + Thu Feb 25 22:28:23 2021 [views] + получены POST данные: {'name': 'AndryAndry'}
- + Thu Feb 25 22:28:23 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:28:25 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:28:25 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:28:35 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:30:46 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:30:46 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:30:50 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:30:50 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:30:53 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:30:53 2021 [model] + Создаем новый объект категории New_cat-1
- + Thu Feb 25 22:30:53 2021 [views] + site.categories--->[<models.Category object at 0x7ff77f3ddf40>, <models.Category object at 0x7ff77f3c38e0>]
- + Thu Feb 25 22:30:53 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
- + Thu Feb 25 22:30:53 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:30:54 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:30:54 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:31:00 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:31:00 2021 [views] + ----> Отработал index_view
- + Thu Feb 25 22:31:00 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:31:02 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:31:02 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:31:02 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:31:02 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:31:11 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:33:50 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:34:14 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:34:15 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:34:15 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:34:40 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:34:40 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:35:26 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:35:26 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:35:39 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:35:39 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:36:49 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:36:49 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:36:51 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:36:51 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:37:03 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:37:03 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:37:09 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:37:09 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:37:49 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:37:50 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:39:08 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:39:08 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:39:14 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:39:14 2021 [model] + Создаем новый объект категории asasvafsvafdv
- + Thu Feb 25 22:39:14 2021 [views] + site.categories--->[<models.Category object at 0x7ff77f370070>]
- + Thu Feb 25 22:39:14 2021 [views] + получены POST данные: {'name': 'asasvafsvafdv'}
- + Thu Feb 25 22:39:14 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:39:19 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:39:19 2021 [model] + Создаем новый объект категории cgbne45t346y+erfbrft
- + Thu Feb 25 22:39:19 2021 [views] + site.categories--->[<models.Category object at 0x7ff77f370070>, <models.Category object at 0x7ff77f370d00>]
- + Thu Feb 25 22:39:19 2021 [views] + получены POST данные: {'name': 'cgbne45t346y+erfbrft'}
- + Thu Feb 25 22:39:19 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:39:22 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:39:22 2021 [model] + Создаем новый объект категории sdfvsdbg+e6hy+e5h+
- + Thu Feb 25 22:39:22 2021 [views] + site.categories--->[<models.Category object at 0x7ff77f370070>, <models.Category object at 0x7ff77f370d00>, <models.Category object at 0x7ff77f3c3e50>]
- + Thu Feb 25 22:39:22 2021 [views] + получены POST данные: {'name': 'sdfvsdbg+e6hy+e5h+'}
- + Thu Feb 25 22:39:22 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:39:26 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:39:26 2021 [model] + Создаем новый объект категории stb+ert+ert+nerth+
- + Thu Feb 25 22:39:26 2021 [views] + site.categories--->[<models.Category object at 0x7ff77f370070>, <models.Category object at 0x7ff77f370d00>, <models.Category object at 0x7ff77f3c3e50>, <models.Category object at 0x7ff77f370b80>]
- + Thu Feb 25 22:39:26 2021 [views] + получены POST данные: {'name': 'stb+ert+ert+nerth+'}
- + Thu Feb 25 22:39:26 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:39:29 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:39:29 2021 [model] + Создаем новый объект категории s123132423
- + Thu Feb 25 22:39:29 2021 [views] + site.categories--->[<models.Category object at 0x7ff77f370070>, <models.Category object at 0x7ff77f370d00>, <models.Category object at 0x7ff77f3c3e50>, <models.Category object at 0x7ff77f370b80>, <models.Category object at 0x7ff77f3d4670>]
- + Thu Feb 25 22:39:29 2021 [views] + получены POST данные: {'name': 's123132423'}
- + Thu Feb 25 22:39:29 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:39:34 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:39:34 2021 [model] + Создаем новый объект категории wertg+wr+t
- + Thu Feb 25 22:39:34 2021 [views] + site.categories--->[<models.Category object at 0x7ff77f370070>, <models.Category object at 0x7ff77f370d00>, <models.Category object at 0x7ff77f3c3e50>, <models.Category object at 0x7ff77f370b80>, <models.Category object at 0x7ff77f3d4670>, <models.Category object at 0x7ff77f3d4a00>]
- + Thu Feb 25 22:39:34 2021 [views] + получены POST данные: {'name': 'wertg+wr+t'}
- + Thu Feb 25 22:39:34 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:39:40 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:39:40 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:40:37 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:40:37 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:40:38 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:40:38 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:40:40 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:40:40 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:42:08 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:42:08 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:43:21 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:43:21 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:43:24 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:43:24 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:43:32 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:43:32 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:43:34 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:43:34 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:43:35 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:43:35 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:43:41 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:43:41 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:43:43 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:43:43 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:43:44 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:43:44 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:43:51 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:43:51 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:43:53 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:43:53 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:44:45 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:44:45 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:44:47 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:44:47 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:44:49 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:44:49 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:44:50 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:44:50 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:44:51 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:44:51 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:46:39 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:47:02 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:47:02 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:48:03 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:48:03 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:48:06 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:48:06 2021 [model] + Создаем новый объект категории AndryAndry
- + Thu Feb 25 22:48:06 2021 [views] + site.categories--->[<models.Category object at 0x7fbe136f2190>]
- + Thu Feb 25 22:48:06 2021 [views] + получены POST данные: {'name': 'AndryAndry'}
- + Thu Feb 25 22:48:06 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:48:09 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:48:09 2021 [model] + Создаем новый объект категории New_cat-1
- + Thu Feb 25 22:48:09 2021 [views] + site.categories--->[<models.Category object at 0x7fbe136f2190>, <models.Category object at 0x7fbe136f2670>]
- + Thu Feb 25 22:48:09 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
- + Thu Feb 25 22:48:09 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:48:11 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:48:11 2021 [model] + Создаем новый объект категории newcat-2
- + Thu Feb 25 22:48:11 2021 [views] + site.categories--->[<models.Category object at 0x7fbe136f2190>, <models.Category object at 0x7fbe136f2670>, <models.Category object at 0x7fbe136f2cd0>]
- + Thu Feb 25 22:48:11 2021 [views] + получены POST данные: {'name': 'newcat-2'}
- + Thu Feb 25 22:48:11 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:48:14 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:48:14 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:48:41 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:48:41 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:48:43 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:48:43 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:49:00 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:49:00 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:52:18 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:52:39 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:52:39 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:53:46 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:53:46 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:53:46 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:54:06 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:54:06 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:58:22 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:58:22 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:58:43 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:58:43 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:58:47 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:58:47 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:58:55 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:58:55 2021 [model] + Создаем новый объект категории AndryAndry
- + Thu Feb 25 22:58:55 2021 [views] + site.categories--->[<models.Category object at 0x7f45214a25b0>]
- + Thu Feb 25 22:58:55 2021 [views] + получены POST данные: {'name': 'AndryAndry'}
- + Thu Feb 25 22:58:55 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:58:57 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:58:57 2021 [model] + Создаем новый объект категории New_cat-1
- + Thu Feb 25 22:58:57 2021 [views] + site.categories--->[<models.Category object at 0x7f45214a25b0>, <models.Category object at 0x7f45214a23a0>]
- + Thu Feb 25 22:58:57 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
- + Thu Feb 25 22:58:57 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:59:00 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:59:00 2021 [model] + Создаем новый объект категории newcat-2
- + Thu Feb 25 22:59:00 2021 [views] + site.categories--->[<models.Category object at 0x7f45214a25b0>, <models.Category object at 0x7f45214a23a0>, <models.Category object at 0x7f45214a28b0>]
- + Thu Feb 25 22:59:00 2021 [views] + получены POST данные: {'name': 'newcat-2'}
- + Thu Feb 25 22:59:00 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:59:15 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:59:15 2021 [model] + Создаем новый объект категории test_cat_42
- + Thu Feb 25 22:59:15 2021 [views] + site.categories--->[<models.Category object at 0x7f45214a25b0>, <models.Category object at 0x7f45214a23a0>, <models.Category object at 0x7f45214a28b0>, <models.Category object at 0x7f452179ab80>]
- + Thu Feb 25 22:59:15 2021 [views] + получены POST данные: {'name': 'test_cat_42'}
- + Thu Feb 25 22:59:15 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:59:20 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:59:20 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:59:25 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:59:25 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:59:34 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:59:34 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:59:53 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 22:59:53 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:02:17 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:02:17 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:02:23 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:02:23 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:04:45 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:04:45 2021 [views] + ----> Отработал index_view
- + Thu Feb 25 23:04:45 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:04:49 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:04:49 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:04:51 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:04:51 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:04:54 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:04:54 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:06:07 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:06:07 2021 [views] + ----> Отработал index_view
- + Thu Feb 25 23:06:07 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:06:08 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:06:08 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:06:14 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:06:14 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:06:16 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:06:16 2021 [model] + Создаем новый объект категории AndryAndry
- + Thu Feb 25 23:06:16 2021 [views] + site.categories--->[<models.Category object at 0x7f721d3a1e50>]
- + Thu Feb 25 23:06:16 2021 [views] + получены POST данные: {'name': 'AndryAndry'}
- + Thu Feb 25 23:06:16 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:06:19 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:06:19 2021 [model] + Создаем новый объект категории New_cat-1
- + Thu Feb 25 23:06:19 2021 [views] + site.categories--->[<models.Category object at 0x7f721d3a1e50>, <models.Category object at 0x7f721d347970>]
- + Thu Feb 25 23:06:19 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
- + Thu Feb 25 23:06:19 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:06:22 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:06:22 2021 [model] + Создаем новый объект категории newcat-2
- + Thu Feb 25 23:06:22 2021 [views] + site.categories--->[<models.Category object at 0x7f721d3a1e50>, <models.Category object at 0x7f721d347970>, <models.Category object at 0x7f721d3b4e50>]
- + Thu Feb 25 23:06:22 2021 [views] + получены POST данные: {'name': 'newcat-2'}
- + Thu Feb 25 23:06:22 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:06:23 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:06:23 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:06:38 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:06:38 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:08:01 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:08:01 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:08:04 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:08:04 2021 [model] + Создаем новый объект категории AndryAndry
- + Thu Feb 25 23:08:04 2021 [views] + site.categories--->[<models.Category object at 0x7f5fe7043220>]
- + Thu Feb 25 23:08:04 2021 [views] + получены POST данные: {'name': 'AndryAndry'}
- + Thu Feb 25 23:08:04 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:08:06 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:08:06 2021 [model] + Создаем новый объект категории New_cat-1
- + Thu Feb 25 23:08:06 2021 [views] + site.categories--->[<models.Category object at 0x7f5fe7043220>, <models.Category object at 0x7f5fe7054490>]
- + Thu Feb 25 23:08:06 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
- + Thu Feb 25 23:08:06 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:08:08 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:08:08 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:08:09 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:08:09 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:08:18 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:08:18 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:20:45 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:20:45 2021 [views] + ----> Отработал index_view
- + Thu Feb 25 23:20:45 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:20:48 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:20:48 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:20:50 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:20:50 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:20:52 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:20:52 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:20:53 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:20:53 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:20:57 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:20:57 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:20:58 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:20:58 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:21:00 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:21:00 2021 [model] + Создаем новый объект категории AndryAndry
- + Thu Feb 25 23:21:00 2021 [views] + site.categories--->[<models.Category object at 0x7fe6d59b4cd0>]
- + Thu Feb 25 23:21:00 2021 [views] + получены POST данные: {'name': 'AndryAndry'}
- + Thu Feb 25 23:21:00 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:21:02 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:21:02 2021 [model] + Создаем новый объект категории New_cat-1
- + Thu Feb 25 23:21:02 2021 [views] + site.categories--->[<models.Category object at 0x7fe6d59b4cd0>, <models.Category object at 0x7fe6d59c7970>]
- + Thu Feb 25 23:21:02 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
- + Thu Feb 25 23:21:02 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:21:05 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:21:05 2021 [model] + Создаем новый объект категории newcat-2
- + Thu Feb 25 23:21:05 2021 [views] + site.categories--->[<models.Category object at 0x7fe6d59b4cd0>, <models.Category object at 0x7fe6d59c7970>, <models.Category object at 0x7fe6d5959580>]
- + Thu Feb 25 23:21:05 2021 [views] + получены POST данные: {'name': 'newcat-2'}
- + Thu Feb 25 23:21:05 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:21:10 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:21:10 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:21:12 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:21:12 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:21:14 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:21:14 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:21:21 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:21:21 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:23:25 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:23:25 2021 [views] + ----> Отработал index_view
- + Thu Feb 25 23:23:25 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:23:28 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:23:28 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:23:30 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:23:30 2021 [model] + Создаем новый объект категории AndryAndry
- + Thu Feb 25 23:23:30 2021 [views] + site.categories--->[<models.Category object at 0x7f719dd344c0>]
- + Thu Feb 25 23:23:30 2021 [views] + получены POST данные: {'name': 'AndryAndry'}
- + Thu Feb 25 23:23:30 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:23:32 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:23:32 2021 [model] + Создаем новый объект категории New_cat-1
- + Thu Feb 25 23:23:32 2021 [views] + site.categories--->[<models.Category object at 0x7f719dd344c0>, <models.Category object at 0x7f719dd34820>]
- + Thu Feb 25 23:23:32 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
- + Thu Feb 25 23:23:32 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:23:34 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:23:34 2021 [model] + Создаем новый объект категории newcat-2
- + Thu Feb 25 23:23:34 2021 [views] + site.categories--->[<models.Category object at 0x7f719dd344c0>, <models.Category object at 0x7f719dd34820>, <models.Category object at 0x7f719dd34c40>]
- + Thu Feb 25 23:23:34 2021 [views] + получены POST данные: {'name': 'newcat-2'}
- + Thu Feb 25 23:23:34 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:23:36 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:23:36 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:23:37 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:23:37 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:23:46 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:23:46 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:25:29 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:25:29 2021 [views] + ----> Отработал index_view
- + Thu Feb 25 23:25:29 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:25:31 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:25:31 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:25:33 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:25:33 2021 [model] + Создаем новый объект категории AndryAndry
- + Thu Feb 25 23:25:33 2021 [views] + site.categories--->[<models.Category object at 0x7f00577144c0>]
- + Thu Feb 25 23:25:33 2021 [views] + получены POST данные: {'name': 'AndryAndry'}
- + Thu Feb 25 23:25:33 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:25:35 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:25:35 2021 [model] + Создаем новый объект категории New_cat-1
- + Thu Feb 25 23:25:35 2021 [views] + site.categories--->[<models.Category object at 0x7f00577144c0>, <models.Category object at 0x7f0057714820>]
- + Thu Feb 25 23:25:35 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
- + Thu Feb 25 23:25:35 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:25:37 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:25:37 2021 [model] + Создаем новый объект категории newcat-2
- + Thu Feb 25 23:25:37 2021 [views] + site.categories--->[<models.Category object at 0x7f00577144c0>, <models.Category object at 0x7f0057714820>, <models.Category object at 0x7f0057714c40>]
- + Thu Feb 25 23:25:37 2021 [views] + получены POST данные: {'name': 'newcat-2'}
- + Thu Feb 25 23:25:37 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:25:38 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:25:38 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:25:47 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:25:47 2021 [views] + В категорию New_cat-1 добавлен курс New_cat-1_course_1
- + Thu Feb 25 23:25:47 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:26:04 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:26:04 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:29:31 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:29:31 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:29:36 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:29:36 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:29:50 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:29:50 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:29:53 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:29:53 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:29:55 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:29:55 2021 [model] + Создаем новый объект категории AndryAndry
- + Thu Feb 25 23:29:55 2021 [views] + site.categories--->[<models.Category object at 0x7f08146a4eb0>]
- + Thu Feb 25 23:29:55 2021 [views] + получены POST данные: {'name': 'AndryAndry'}
- + Thu Feb 25 23:29:55 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:29:57 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:29:57 2021 [model] + Создаем новый объект категории New_cat-1
- + Thu Feb 25 23:29:57 2021 [views] + site.categories--->[<models.Category object at 0x7f08146a4eb0>, <models.Category object at 0x7f08146a4ee0>]
- + Thu Feb 25 23:29:57 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
- + Thu Feb 25 23:29:57 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:30:00 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:30:00 2021 [model] + Создаем новый объект категории newcat-2
- + Thu Feb 25 23:30:00 2021 [views] + site.categories--->[<models.Category object at 0x7f08146a4eb0>, <models.Category object at 0x7f08146a4ee0>, <models.Category object at 0x7f08146395b0>]
- + Thu Feb 25 23:30:00 2021 [views] + получены POST данные: {'name': 'newcat-2'}
- + Thu Feb 25 23:30:00 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:30:04 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:30:04 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:30:08 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:30:08 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:30:10 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:30:10 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:30:21 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:30:21 2021 [views] + В категорию AndryAndry добавлен курс Course_1
- + Thu Feb 25 23:30:21 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:30:28 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:30:28 2021 [views] + В категорию AndryAndry добавлен курс Course_2
- + Thu Feb 25 23:30:28 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:30:33 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:30:33 2021 [views] + В категорию AndryAndry добавлен курс Course_3
- + Thu Feb 25 23:30:33 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:30:42 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:30:42 2021 [views] + В категорию New_cat-1 добавлен курс Course_22
- + Thu Feb 25 23:30:42 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:30:48 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:30:48 2021 [views] + В категорию New_cat-1 добавлен курс Course_23
- + Thu Feb 25 23:30:48 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:30:54 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:30:54 2021 [views] + В категорию New_cat-1 добавлен курс Course_24
- + Thu Feb 25 23:30:54 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:31:02 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:31:02 2021 [views] + В категорию newcat-2 добавлен курс Course_55
- + Thu Feb 25 23:31:02 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:31:10 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:31:10 2021 [views] + В категорию AndryAndry добавлен курс Course_56
- + Thu Feb 25 23:31:10 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:31:19 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:31:19 2021 [views] + В категорию newcat-2 добавлен курс Course_57
- + Thu Feb 25 23:31:19 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:31:27 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:31:27 2021 [views] + В категорию newcat-2 добавлен курс course_58
- + Thu Feb 25 23:31:27 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:31:29 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:31:29 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:32:11 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:32:11 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:32:13 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:32:13 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:32:15 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:32:15 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:32:18 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:32:18 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:32:27 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:32:27 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:32:29 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:32:29 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:32:31 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:32:31 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:32:37 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:32:37 2021 [model] + Создаем новый объект категории Python
- + Thu Feb 25 23:32:37 2021 [views] + site.categories--->[<models.Category object at 0x7ff075b14eb0>]
- + Thu Feb 25 23:32:37 2021 [views] + получены POST данные: {'name': 'Python'}
- + Thu Feb 25 23:32:37 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:32:41 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:32:41 2021 [model] + Создаем новый объект категории Java
- + Thu Feb 25 23:32:41 2021 [views] + site.categories--->[<models.Category object at 0x7ff075b14eb0>, <models.Category object at 0x7ff075b14ee0>]
- + Thu Feb 25 23:32:41 2021 [views] + получены POST данные: {'name': 'Java'}
- + Thu Feb 25 23:32:41 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:32:49 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:32:49 2021 [model] + Создаем новый объект категории PHP
- + Thu Feb 25 23:32:49 2021 [views] + site.categories--->[<models.Category object at 0x7ff075b14eb0>, <models.Category object at 0x7ff075b14ee0>, <models.Category object at 0x7ff075ab95b0>]
- + Thu Feb 25 23:32:49 2021 [views] + получены POST данные: {'name': 'PHP'}
- + Thu Feb 25 23:32:49 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:32:52 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:32:52 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:32:58 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:32:58 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:33:01 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:33:01 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:33:22 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:33:22 2021 [views] + В категорию Python добавлен курс %D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B+%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F+%D0%BD%D0%B0+Python
- + Thu Feb 25 23:33:22 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:33:52 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:33:52 2021 [views] + В категорию Python добавлен курс %D0%9E%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8+Django
- + Thu Feb 25 23:33:52 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:34:27 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:34:27 2021 [views] + В категорию Java добавлен курс Java.+%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5
- + Thu Feb 25 23:34:27 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:35:02 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:35:02 2021 [views] + В категорию Java добавлен курс Client+-+Server+
- + Thu Feb 25 23:35:02 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:35:32 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:35:32 2021 [views] + В категорию PHP добавлен курс %D0%97%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B0%D0%B5%D0%BC+%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80+Apache
- + Thu Feb 25 23:35:32 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:35:43 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:35:43 2021 [views] + В категорию PHP добавлен курс %D0%91%D1%8B%D1%81%D1%82%D1%80%D1%8B%D0%B9+%D1%81%D1%82%D0%B0%D1%80%D1%82
- + Thu Feb 25 23:35:43 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:35:57 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:35:57 2021 [views] + В категорию Python добавлен курс %D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B+%D0%BD%D0%B0+PHP
- + Thu Feb 25 23:35:57 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:35:59 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:35:59 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:36:25 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:36:25 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:36:32 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:36:32 2021 [model] + Создаем новый объект категории Python
- + Thu Feb 25 23:36:32 2021 [views] + site.categories--->[<models.Category object at 0x7f58e02e1220>]
- + Thu Feb 25 23:36:32 2021 [views] + получены POST данные: {'name': 'Python'}
- + Thu Feb 25 23:36:32 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:36:38 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:36:38 2021 [model] + Создаем новый объект категории PHP
- + Thu Feb 25 23:36:38 2021 [views] + site.categories--->[<models.Category object at 0x7f58e02e1220>, <models.Category object at 0x7f58e02f4490>]
- + Thu Feb 25 23:36:38 2021 [views] + получены POST данные: {'name': 'PHP'}
- + Thu Feb 25 23:36:38 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:36:47 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:36:47 2021 [model] + Создаем новый объект категории Java
- + Thu Feb 25 23:36:47 2021 [views] + site.categories--->[<models.Category object at 0x7f58e02e1220>, <models.Category object at 0x7f58e02f4490>, <models.Category object at 0x7f58e02f4880>]
- + Thu Feb 25 23:36:47 2021 [views] + получены POST данные: {'name': 'Java'}
- + Thu Feb 25 23:36:47 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:36:49 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:36:49 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:36:57 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:36:57 2021 [views] + В категорию Python добавлен курс %D0%9D%D0%B0%D1%87%D0%B0%D0%BB%D0%BE
- + Thu Feb 25 23:36:57 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:37:14 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:37:14 2021 [views] + В категорию Python добавлен курс Start+Django
- + Thu Feb 25 23:37:14 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:37:42 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:37:42 2021 [views] + В категорию Python добавлен курс %D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B+PyQt5
- + Thu Feb 25 23:37:42 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:37:55 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:37:55 2021 [views] + В категорию PHP добавлен курс Start+Server+Apache
- + Thu Feb 25 23:37:55 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:38:09 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:38:09 2021 [views] + В категорию PHP добавлен курс %D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B+%D0%BD%D0%B0+PHP
- + Thu Feb 25 23:38:09 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:38:19 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:38:19 2021 [views] + В категорию Java добавлен курс Java.+%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5
- + Thu Feb 25 23:38:19 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:38:31 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:38:31 2021 [views] + В категорию Python добавлен курс Java+and+App
- + Thu Feb 25 23:38:31 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:38:34 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:38:34 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:43:49 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:43:49 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:45:59 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:45:59 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:46:02 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:46:02 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:46:04 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:46:04 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:46:07 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:46:07 2021 [model] + Создаем новый объект категории Python
- + Thu Feb 25 23:46:07 2021 [views] + site.categories--->[<models.Category object at 0x7fb32bb531f0>]
- + Thu Feb 25 23:46:07 2021 [views] + получены POST данные: {'name': 'Python'}
- + Thu Feb 25 23:46:07 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:46:14 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:46:14 2021 [model] + Создаем новый объект категории PHP
- + Thu Feb 25 23:46:14 2021 [views] + site.categories--->[<models.Category object at 0x7fb32bb531f0>, <models.Category object at 0x7fb32bb533d0>]
- + Thu Feb 25 23:46:14 2021 [views] + получены POST данные: {'name': 'PHP'}
- + Thu Feb 25 23:46:14 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:46:19 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:46:19 2021 [model] + Создаем новый объект категории JS
- + Thu Feb 25 23:46:19 2021 [views] + site.categories--->[<models.Category object at 0x7fb32bb531f0>, <models.Category object at 0x7fb32bb533d0>, <models.Category object at 0x7fb32bae3be0>]
- + Thu Feb 25 23:46:19 2021 [views] + получены POST данные: {'name': 'JS'}
- + Thu Feb 25 23:46:19 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:46:23 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:46:23 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:46:26 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:46:26 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:46:29 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:46:29 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:46:32 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:46:32 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:46:34 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:46:34 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:46:36 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:46:36 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:46:47 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:46:47 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:46:49 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:46:49 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:47:01 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:47:01 2021 [views] + В категорию Python добавлен курс Введение в python
- + Thu Feb 25 23:47:01 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:47:20 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:47:20 2021 [views] + В категорию Python добавлен курс Синтаксис языка Python
- + Thu Feb 25 23:47:20 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:47:33 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:47:33 2021 [views] + В категорию PHP добавлен курс Запускаем сервер Apache
- + Thu Feb 25 23:47:33 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:47:46 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:47:46 2021 [views] + В категорию PHP добавлен курс Шаблоны на PHP
- + Thu Feb 25 23:47:46 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:02 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:02 2021 [views] + В категорию JS добавлен курс Основы JS
- + Thu Feb 25 23:48:02 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:17 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:17 2021 [views] + В категорию JS добавлен курс Продвинутый курс по JS
- + Thu Feb 25 23:48:17 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:21 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:21 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:34 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:34 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:36 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:36 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:45 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:45 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:45 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:48 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:48 2021 [views] + ----> Отработал index_view
- + Thu Feb 25 23:48:48 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:49 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:49 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:50 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:50 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:52 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:52 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:52 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:52 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:53 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:53 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:54 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:54 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:55 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:55 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:56 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:56 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:56 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:56 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:57 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:48:57 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:53:02 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:53:02 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:53:14 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:53:14 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:53:37 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:53:37 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:53:44 2021 [main] + ----> Отработал secret_front
- + Thu Feb 25 23:53:44 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:02:58 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:02:58 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:03:49 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:03:49 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:04:15 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:04:15 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:04:19 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:04:19 2021 [model] + Создаем новый объект категории Python
- + Fri Feb 26 00:04:19 2021 [views] + site.categories--->[<models.Category object at 0x7f1f9d476a00>]
- + Fri Feb 26 00:04:19 2021 [views] + получены POST данные: {'name': 'Python'}
- + Fri Feb 26 00:04:19 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:04:21 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:04:21 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:05:26 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:05:26 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:05:40 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:05:40 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:05:41 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:05:41 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:05:42 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:05:42 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:05:43 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:05:43 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:05:44 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:05:44 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:06:24 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:06:24 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:06:26 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:06:26 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:07:20 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:07:20 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:08:32 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:08:32 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:08:56 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:11:08 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:11:08 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:11:13 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:11:13 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:11:14 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:11:14 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:11:14 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:11:16 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:11:16 2021 [views] + В категорию Python добавлен курс 
- + Fri Feb 26 00:11:16 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:11:22 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:11:22 2021 [views] + В категорию Python добавлен курс 
- + Fri Feb 26 00:11:22 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:13:01 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:13:01 2021 [views] + В категорию Python добавлен курс 
- + Fri Feb 26 00:13:01 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:13:16 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:14:40 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:14:40 2021 [views] + В категорию Python добавлен курс 
- + Fri Feb 26 00:14:40 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:14:45 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:14:45 2021 [views] + ----> Отработал index_view
- + Fri Feb 26 00:14:45 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:14:47 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:14:47 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:14:48 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:14:48 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:15:33 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:15:33 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:15:37 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:15:37 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:15:48 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:15:48 2021 [views] + В категорию Python добавлен курс sdvasvafdv
- + Fri Feb 26 00:15:48 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:27:16 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:27:16 2021 [views] + В категорию Python добавлен курс sdvasvafdv
- + Fri Feb 26 00:27:16 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:27:19 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:27:19 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:27:20 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:27:20 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:27:20 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:27:20 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:27:21 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:27:21 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:27:30 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:30:22 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:30:22 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:32:33 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:32:33 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:32:35 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:32:35 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:32:38 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:32:38 2021 [model] + Создаем новый объект категории Python
- + Fri Feb 26 00:32:38 2021 [views] + site.categories--->[<models.Category object at 0x7f1f9d476c10>]
- + Fri Feb 26 00:32:38 2021 [views] + получены POST данные: {'name': 'Python'}
- + Fri Feb 26 00:32:38 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:32:42 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:32:42 2021 [model] + Создаем новый объект категории newcat-2
- + Fri Feb 26 00:32:42 2021 [views] + site.categories--->[<models.Category object at 0x7f1f9d476c10>, <models.Category object at 0x7f1f9d4766d0>]
- + Fri Feb 26 00:32:42 2021 [views] + получены POST данные: {'name': 'newcat-2'}
- + Fri Feb 26 00:32:42 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:32:44 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:32:44 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:32:48 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:32:48 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:32:53 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:32:53 2021 [views] + В категорию Python добавлен курс dfbdfbsdfb12121212
- + Fri Feb 26 00:32:53 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:33:01 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:33:01 2021 [views] + В категорию Python добавлен курс fsg343242345
- + Fri Feb 26 00:33:01 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:33:06 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:33:06 2021 [views] + В категорию newcat-2 добавлен курс asf333333333
- + Fri Feb 26 00:33:06 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:33:11 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:33:11 2021 [views] + В категорию newcat-2 добавлен курс 5555555555sdrgsr
- + Fri Feb 26 00:33:11 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:33:15 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:33:15 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:33:23 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:33:23 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:33:59 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:33:59 2021 [views] + В категорию Python добавлен курс 88888888df fypppp
- + Fri Feb 26 00:33:59 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:38:27 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:38:27 2021 [views] + ----> Отработал index_view
- + Fri Feb 26 00:38:27 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:38:28 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:38:28 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:38:29 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:38:29 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:38:38 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:38:38 2021 [model] + Создаем новый объект категории Python
- + Fri Feb 26 00:38:38 2021 [views] + site.categories--->[<models.Category object at 0x7fce76455dc0>]
- + Fri Feb 26 00:38:38 2021 [views] + получены POST данные: {'name': 'Python'}
- + Fri Feb 26 00:38:38 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:38:45 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:38:45 2021 [model] + Создаем новый объект категории Java
- + Fri Feb 26 00:38:45 2021 [views] + site.categories--->[<models.Category object at 0x7fce76455dc0>, <models.Category object at 0x7fce76455190>]
- + Fri Feb 26 00:38:45 2021 [views] + получены POST данные: {'name': 'Java'}
- + Fri Feb 26 00:38:45 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:38:47 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:38:47 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:38:48 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:38:48 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:38:51 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:38:51 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:38:53 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:38:53 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:38:55 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:38:55 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:39:02 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:39:02 2021 [views] + В категорию Python добавлен курс sdfv sd34 4 45 
- + Fri Feb 26 00:39:02 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:39:38 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:39:38 2021 [views] + В категорию Python добавлен курс Python_offline
- + Fri Feb 26 00:39:38 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:39:54 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:39:54 2021 [views] + В категорию Java добавлен курс Основы
- + Fri Feb 26 00:39:54 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:39:57 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:39:57 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:40:00 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:40:00 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:40:36 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:40:36 2021 [views] + ----> Отработал index_view
- + Fri Feb 26 00:40:36 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:40:38 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:40:38 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:40:41 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:40:41 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:40:42 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:40:42 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:40:44 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:40:44 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:40:48 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:40:48 2021 [model] + Создаем новый объект категории New_cat-1
- + Fri Feb 26 00:40:48 2021 [views] + site.categories--->[<models.Category object at 0x7fe7cec7ba30>]
- + Fri Feb 26 00:40:48 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
- + Fri Feb 26 00:40:48 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:40:50 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:40:50 2021 [model] + Создаем новый объект категории newcat-2
- + Fri Feb 26 00:40:50 2021 [views] + site.categories--->[<models.Category object at 0x7fe7cec7ba30>, <models.Category object at 0x7fe7cecd18e0>]
- + Fri Feb 26 00:40:50 2021 [views] + получены POST данные: {'name': 'newcat-2'}
- + Fri Feb 26 00:40:50 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:40:53 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:40:53 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:40:54 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:40:54 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:40:55 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:40:55 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:40:55 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:40:55 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:40:57 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:40:57 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:41:04 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:41:04 2021 [views] + В категорию New_cat-1 добавлен курс фм к мцукм цук мук33333333333
- + Fri Feb 26 00:41:04 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:41:11 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:41:11 2021 [views] + В категорию newcat-2 добавлен курс ы цу324 42
- + Fri Feb 26 00:41:11 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:41:13 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:41:13 2021 [views] + В категорию New_cat-1 добавлен курс 24242
- + Fri Feb 26 00:41:13 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:41:15 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:41:15 2021 [views] + В категорию New_cat-1 добавлен курс 244654656
- + Fri Feb 26 00:41:16 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:41:19 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:41:19 2021 [views] + В категорию newcat-2 добавлен курс шшшшшшшшшшш
- + Fri Feb 26 00:41:19 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:41:25 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:41:25 2021 [views] + В категорию newcat-2 добавлен курс пппппппппdgdfg
- + Fri Feb 26 00:41:25 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:41:27 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:41:27 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:41:29 2021 [main] + ----> Отработал secret_front
- + Fri Feb 26 00:41:29 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:44:17 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:44:17 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:44:19 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:44:19 2021 [model] + Создаем новый объект категории New_cat-1
+ + Mon Mar  1 09:44:19 2021 [views] + site.categories--->[<models.Category object at 0x02F24C10>]
+ + Mon Mar  1 09:44:19 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Mon Mar  1 09:44:19 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:44:22 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:44:22 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:44:26 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:44:26 2021 [views] + В категорию New_cat-1 добавлен курс asfasf
+ + Mon Mar  1 09:44:26 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:44:27 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:44:27 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:44:53 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:44:53 2021 [views] + Внутри copy_course
+ + Mon Mar  1 09:44:53 2021 [views] + Не удалось создать комию курса asfasf
+ + Mon Mar  1 09:44:53 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:49:03 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:49:03 2021 [views] + ----> Отработал index_view
+ + Mon Mar  1 09:49:03 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:49:07 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:49:07 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:49:11 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:49:11 2021 [model] + Создаем новый объект категории New_cat-1
+ + Mon Mar  1 09:49:11 2021 [views] + site.categories--->[<models.Category object at 0x02B46C70>]
+ + Mon Mar  1 09:49:11 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Mon Mar  1 09:49:11 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:49:15 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:49:15 2021 [model] + Создаем новый объект категории AndryAndry
+ + Mon Mar  1 09:49:15 2021 [views] + site.categories--->[<models.Category object at 0x02B46C70>, <models.Category object at 0x02B468F8>]
+ + Mon Mar  1 09:49:15 2021 [views] + получены POST данные: {'name': 'AndryAndry'}
+ + Mon Mar  1 09:49:15 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:49:17 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:49:17 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:49:17 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:49:17 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:49:28 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:49:28 2021 [views] + В категорию New_cat-1 добавлен курс aaasd12123
+ + Mon Mar  1 09:49:28 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:49:36 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:49:36 2021 [views] + В категорию AndryAndry добавлен курс Pythonf2323
+ + Mon Mar  1 09:49:36 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:49:38 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:49:38 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:49:40 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:49:40 2021 [views] + Внутри copy_course
+ + Mon Mar  1 09:49:40 2021 [views] + Ищем курс с именем --> aaasd12123
+ + Mon Mar  1 09:49:40 2021 [views] + Поиск вернул объект --> None
+ + Mon Mar  1 09:49:40 2021 [views] + Не удалось создать комию курса aaasd12123
+ + Mon Mar  1 09:49:40 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:58:15 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:58:15 2021 [views] + ----> Отработал index_view
+ + Mon Mar  1 09:58:15 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:58:20 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:58:20 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:58:23 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:58:23 2021 [model] + Создаем новый объект категории New_cat-1
+ + Mon Mar  1 09:58:23 2021 [views] + site.categories--->[<models.Category object at 0x03794C70>]
+ + Mon Mar  1 09:58:23 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Mon Mar  1 09:58:23 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:58:25 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:58:25 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:58:30 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:58:30 2021 [views] + В категорию New_cat-1 добавлен курс Python111111111
+ + Mon Mar  1 09:58:30 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:58:32 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:58:32 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:58:33 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:58:33 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:58:35 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:58:35 2021 [views] + Внутри copy_course
+ + Mon Mar  1 09:58:35 2021 [views] + Ищем курс с именем --> Python111111111
+ + Mon Mar  1 09:58:35 2021 [model] + найден объект курса <models.OfflineCourse object at 0x037FE3A0> с именем Python111111111
+ + Mon Mar  1 09:58:35 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x037FE3A0>
+ + Mon Mar  1 09:58:35 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x037FEDA8>
+ + Mon Mar  1 09:58:35 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:59:56 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 09:59:56 2021 [views] + Внутри copy_course
+ + Mon Mar  1 09:59:56 2021 [views] + Ищем курс с именем --> Python111111111
+ + Mon Mar  1 09:59:56 2021 [model] + найден объект курса <models.OfflineCourse object at 0x037FE3A0> с именем Python111111111
+ + Mon Mar  1 09:59:56 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x037FE3A0>
+ + Mon Mar  1 09:59:56 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x037FEEB0>
+ + Mon Mar  1 09:59:56 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:07:01 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:07:01 2021 [views] + ----> Отработал index_view
+ + Mon Mar  1 10:07:01 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:07:03 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:07:03 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:07:04 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:07:04 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:07:07 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:07:07 2021 [model] + Создаем новый объект категории New_cat-1
+ + Mon Mar  1 10:07:07 2021 [views] + site.categories--->[<models.Category object at 0x036348F8>]
+ + Mon Mar  1 10:07:07 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Mon Mar  1 10:07:07 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:07:10 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:07:10 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:07:16 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:07:16 2021 [views] + В категорию New_cat-1 добавлен курс Python111
+ + Mon Mar  1 10:07:16 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:07:17 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:08:17 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:08:17 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:08:20 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:08:20 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:08:23 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:08:23 2021 [model] + Создаем новый объект категории New_cat-1
+ + Mon Mar  1 10:08:23 2021 [views] + site.categories--->[<models.Category object at 0x03744E20>]
+ + Mon Mar  1 10:08:23 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Mon Mar  1 10:08:23 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:08:24 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:08:24 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:08:28 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:08:28 2021 [views] + В категорию New_cat-1 добавлен курс Python33
+ + Mon Mar  1 10:08:28 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:08:30 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:08:30 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:08:33 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:08:33 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:08:41 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:08:41 2021 [views] + Внутри copy_course
+ + Mon Mar  1 10:08:41 2021 [views] + Ищем курс с именем --> Python33
+ + Mon Mar  1 10:08:41 2021 [model] + найден объект курса <models.OfflineCourse object at 0x037A11F0> с именем Python33
+ + Mon Mar  1 10:08:41 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x037A11F0>
+ + Mon Mar  1 10:08:41 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x037A1CD0>
+ + Mon Mar  1 10:08:41 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:08:47 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:08:47 2021 [views] + Внутри copy_course
+ + Mon Mar  1 10:08:47 2021 [views] + Ищем курс с именем --> copy_Python33
+ + Mon Mar  1 10:08:47 2021 [model] + найден объект курса <models.OfflineCourse object at 0x037A11F0> с именем Python33
+ + Mon Mar  1 10:08:47 2021 [model] + найден объект курса <models.OfflineCourse object at 0x037A1CD0> с именем copy_Python33
+ + Mon Mar  1 10:08:47 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x037A1CD0>
+ + Mon Mar  1 10:08:47 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x037A1F10>
+ + Mon Mar  1 10:08:47 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:08:48 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:08:48 2021 [views] + Внутри copy_course
+ + Mon Mar  1 10:08:48 2021 [views] + Ищем курс с именем --> copy_copy_Python33
+ + Mon Mar  1 10:08:48 2021 [model] + найден объект курса <models.OfflineCourse object at 0x037A11F0> с именем Python33
+ + Mon Mar  1 10:08:48 2021 [model] + найден объект курса <models.OfflineCourse object at 0x037A1CD0> с именем copy_Python33
+ + Mon Mar  1 10:08:48 2021 [model] + найден объект курса <models.OfflineCourse object at 0x037A1F10> с именем copy_copy_Python33
+ + Mon Mar  1 10:08:48 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x037A1F10>
+ + Mon Mar  1 10:08:48 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x037A1BF8>
+ + Mon Mar  1 10:08:48 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:08:50 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:08:50 2021 [views] + Внутри copy_course
+ + Mon Mar  1 10:08:50 2021 [views] + Ищем курс с именем --> copy_copy_copy_Python33
+ + Mon Mar  1 10:08:50 2021 [model] + найден объект курса <models.OfflineCourse object at 0x037A11F0> с именем Python33
+ + Mon Mar  1 10:08:50 2021 [model] + найден объект курса <models.OfflineCourse object at 0x037A1CD0> с именем copy_Python33
+ + Mon Mar  1 10:08:50 2021 [model] + найден объект курса <models.OfflineCourse object at 0x037A1F10> с именем copy_copy_Python33
+ + Mon Mar  1 10:08:50 2021 [model] + найден объект курса <models.OfflineCourse object at 0x037A1BF8> с именем copy_copy_copy_Python33
+ + Mon Mar  1 10:08:50 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x037A1BF8>
+ + Mon Mar  1 10:08:50 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x037A18E0>
+ + Mon Mar  1 10:08:50 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:08:51 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:08:51 2021 [views] + Внутри copy_course
+ + Mon Mar  1 10:08:51 2021 [views] + Ищем курс с именем --> Python33
+ + Mon Mar  1 10:08:51 2021 [model] + найден объект курса <models.OfflineCourse object at 0x037A11F0> с именем Python33
+ + Mon Mar  1 10:08:51 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x037A11F0>
+ + Mon Mar  1 10:08:51 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x037A1C88>
+ + Mon Mar  1 10:08:51 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:09:04 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:09:04 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:09:43 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:09:43 2021 [views] + ----> Отработал index_view
+ + Mon Mar  1 10:09:43 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:09:47 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:09:47 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:09:50 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:09:50 2021 [model] + Создаем новый объект категории New_cat-1
+ + Mon Mar  1 10:09:50 2021 [views] + site.categories--->[<models.Category object at 0x039F3C70>]
+ + Mon Mar  1 10:09:50 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Mon Mar  1 10:09:50 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:09:52 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:09:52 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:09:56 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:09:56 2021 [views] + В категорию New_cat-1 добавлен курс Python444
+ + Mon Mar  1 10:09:56 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:09:58 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:09:58 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:10:01 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 10:10:01 2021 [views] + Внутри copy_course
+ + Mon Mar  1 10:10:01 2021 [views] + Ищем курс с именем --> Python444
+ + Mon Mar  1 10:10:01 2021 [model] + найден объект курса <models.OfflineCourse object at 0x03A4F3A0> с именем Python444
+ + Mon Mar  1 10:10:01 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x03A4F3A0>
+ + Mon Mar  1 10:10:01 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x03A4F9B8>
+ + Mon Mar  1 10:10:01 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:31:03 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:31:03 2021 [views] + Внутри copy_course
+ + Mon Mar  1 12:31:03 2021 [views] + Ищем курс с именем --> Python444
+ + Mon Mar  1 12:31:03 2021 [views] + Поиск вернул объект --> None
+ + Mon Mar  1 12:31:03 2021 [views] + Не удалось создать комию курса Python444
+ + Mon Mar  1 12:31:03 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:31:17 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:31:17 2021 [views] + ----> Отработал index_view
+ + Mon Mar  1 12:31:17 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:31:19 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:31:19 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:31:20 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:31:20 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:31:23 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:31:23 2021 [model] + Создаем новый объект категории New_cat-1
+ + Mon Mar  1 12:31:23 2021 [views] + site.categories--->[<models.Category object at 0x036138F8>]
+ + Mon Mar  1 12:31:23 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Mon Mar  1 12:31:23 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:31:25 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:31:25 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:31:26 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:31:26 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:31:31 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:31:31 2021 [views] + В категорию New_cat-1 добавлен курс Python111111111
+ + Mon Mar  1 12:31:31 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:31:36 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:31:36 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:31:38 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:31:38 2021 [views] + Внутри copy_course
+ + Mon Mar  1 12:31:38 2021 [views] + Ищем курс с именем --> Python111111111
+ + Mon Mar  1 12:31:38 2021 [model] + найден объект курса <models.OfflineCourse object at 0x03670808> с именем Python111111111
+ + Mon Mar  1 12:31:38 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x03670808>
+ + Mon Mar  1 12:31:38 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x03670A90>
+ + Mon Mar  1 12:31:38 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:32:01 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:32:01 2021 [views] + Внутри copy_course
+ + Mon Mar  1 12:32:01 2021 [views] + Ищем курс с именем --> copy_Python111111111
+ + Mon Mar  1 12:32:01 2021 [model] + найден объект курса <models.OfflineCourse object at 0x03670808> с именем Python111111111
+ + Mon Mar  1 12:32:01 2021 [model] + найден объект курса <models.OfflineCourse object at 0x03670A90> с именем copy_Python111111111
+ + Mon Mar  1 12:32:01 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x03670A90>
+ + Mon Mar  1 12:32:01 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x03670F28>
+ + Mon Mar  1 12:32:01 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:32:02 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:32:02 2021 [views] + Внутри copy_course
+ + Mon Mar  1 12:32:02 2021 [views] + Ищем курс с именем --> Python111111111
+ + Mon Mar  1 12:32:02 2021 [model] + найден объект курса <models.OfflineCourse object at 0x03670808> с именем Python111111111
+ + Mon Mar  1 12:32:02 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x03670808>
+ + Mon Mar  1 12:32:02 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x03670C28>
+ + Mon Mar  1 12:32:02 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:32:58 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:32:58 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:33:05 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:33:05 2021 [views] + Внутри copy_course
+ + Mon Mar  1 12:33:05 2021 [views] + Ищем курс с именем --> copy_Python111111111
+ + Mon Mar  1 12:33:05 2021 [model] + найден объект курса <models.OfflineCourse object at 0x03670808> с именем Python111111111
+ + Mon Mar  1 12:33:05 2021 [model] + найден объект курса <models.OfflineCourse object at 0x03670A90> с именем copy_Python111111111
+ + Mon Mar  1 12:33:05 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x03670A90>
+ + Mon Mar  1 12:33:05 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x036708E0>
+ + Mon Mar  1 12:33:05 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:36:12 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:36:12 2021 [views] + ----> Отработал index_view
+ + Mon Mar  1 12:36:12 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:36:14 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:36:15 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:36:18 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:36:18 2021 [model] + Создаем новый объект категории New_cat-1
+ + Mon Mar  1 12:36:18 2021 [views] + site.categories--->[<models.Category object at 0x03405C70>]
+ + Mon Mar  1 12:36:18 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Mon Mar  1 12:36:18 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:36:19 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:36:19 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:36:22 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:36:22 2021 [views] + В категорию New_cat-1 добавлен курс Python
+ + Mon Mar  1 12:36:22 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:36:24 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:36:24 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:36:25 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:36:25 2021 [views] + Внутри copy_course
+ + Mon Mar  1 12:36:25 2021 [views] + Ищем курс с именем --> Python
+ + Mon Mar  1 12:36:25 2021 [model] + найден объект курса <models.OfflineCourse object at 0x0345E3A0> с именем Python
+ + Mon Mar  1 12:36:25 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x0345E3A0>
+ + Mon Mar  1 12:36:25 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x0345E9B8>
+ + Mon Mar  1 12:36:25 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:43:27 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:43:27 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:43:30 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:43:30 2021 [model] + Создаем новый объект категории New_cat-1
+ + Mon Mar  1 12:43:30 2021 [views] + site.categories--->[<models.Category object at 0x03481C10>]
+ + Mon Mar  1 12:43:30 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Mon Mar  1 12:43:30 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:43:33 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:43:33 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:43:35 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:43:35 2021 [views] + В категорию New_cat-1 добавлен курс Python
+ + Mon Mar  1 12:43:35 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:43:40 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:43:40 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:43:44 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 12:43:44 2021 [views] + Внутри copy_course
+ + Mon Mar  1 12:43:44 2021 [views] + Ищем курс с именем --> Python
+ + Mon Mar  1 12:43:44 2021 [model] + найден объект курса <models.OfflineCourse object at 0x034E80B8> с именем Python
+ + Mon Mar  1 12:43:44 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x034E80B8>
+ + Mon Mar  1 12:43:44 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x034E8790>
+ + Mon Mar  1 12:43:44 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:04:56 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:04:56 2021 [views] + ----> Отработал index_view
+ + Mon Mar  1 13:04:56 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:04:58 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:04:58 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:05:01 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:05:01 2021 [model] + Создаем новый объект категории New_cat-1
+ + Mon Mar  1 13:05:01 2021 [views] + site.categories--->[<models.Category object at 0x03001C70>]
+ + Mon Mar  1 13:05:01 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Mon Mar  1 13:05:01 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:05:02 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:05:02 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:05:06 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:05:06 2021 [views] + В категорию New_cat-1 добавлен курс Python
+ + Mon Mar  1 13:05:06 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:05:07 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:05:07 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:05:17 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:05:17 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:05:21 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:05:21 2021 [views] + В категорию New_cat-1 добавлен курс newcat-21111
+ + Mon Mar  1 13:05:21 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:05:23 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:05:23 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:05:25 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:05:25 2021 [views] + Внутри copy_course
+ + Mon Mar  1 13:05:25 2021 [views] + Ищем курс с именем --> newcat-21111
+ + Mon Mar  1 13:05:25 2021 [model] + найден объект курса <models.OfflineCourse object at 0x030563A0> с именем Python
+ + Mon Mar  1 13:05:25 2021 [model] + найден объект курса <models.OfflineCourse object at 0x03056B98> с именем newcat-21111
+ + Mon Mar  1 13:05:25 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x03056B98>
+ + Mon Mar  1 13:05:25 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x030562B0>
+ + Mon Mar  1 13:05:25 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:11:28 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:11:28 2021 [views] + ----> Отработал index_view
+ + Mon Mar  1 13:11:28 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:11:30 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:11:30 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:11:32 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:11:32 2021 [model] + Создаем новый объект категории New_cat-1
+ + Mon Mar  1 13:11:32 2021 [views] + site.categories--->[<models.Category object at 0x03745C70>]
+ + Mon Mar  1 13:11:32 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Mon Mar  1 13:11:32 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:11:34 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:11:34 2021 [model] + Создаем новый объект категории newcat-2
+ + Mon Mar  1 13:11:34 2021 [views] + site.categories--->[<models.Category object at 0x03745C70>, <models.Category object at 0x037458F8>]
+ + Mon Mar  1 13:11:34 2021 [views] + получены POST данные: {'name': 'newcat-2'}
+ + Mon Mar  1 13:11:34 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:11:36 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:11:36 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:11:41 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:11:41 2021 [views] + В категорию New_cat-1 добавлен курс Python111111111
+ + Mon Mar  1 13:11:41 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:11:48 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:11:48 2021 [views] + В категорию newcat-2 добавлен курс AndryAndry
+ + Mon Mar  1 13:11:48 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:11:51 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:11:51 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:11:55 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:11:55 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:12:13 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:12:13 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:12:15 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:12:15 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:12:37 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:12:37 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:12:40 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:12:40 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:12:43 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:12:43 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:12:45 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:12:45 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:12:50 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:12:50 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:12:51 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:12:51 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:14:40 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:14:40 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:15:47 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:15:47 2021 [views] + ----> Отработал index_view
+ + Mon Mar  1 13:15:47 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:15:49 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:15:49 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:15:51 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:15:51 2021 [model] + Создаем новый объект категории New_cat-1
+ + Mon Mar  1 13:15:51 2021 [views] + site.categories--->[<models.Category object at 0x02C61C70>]
+ + Mon Mar  1 13:15:51 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Mon Mar  1 13:15:51 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:15:52 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:15:52 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:15:55 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:15:55 2021 [views] + В категорию New_cat-1 добавлен курс Python
+ + Mon Mar  1 13:15:55 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:15:56 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:15:56 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:15:57 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:15:57 2021 [views] + Внутри copy_course
+ + Mon Mar  1 13:15:57 2021 [views] + Ищем курс с именем --> Python
+ + Mon Mar  1 13:15:57 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02CD23A0> с именем Python
+ + Mon Mar  1 13:15:57 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x02CD23A0>
+ + Mon Mar  1 13:15:57 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x02CD29B8>
+ + Mon Mar  1 13:15:57 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:15:59 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:15:59 2021 [views] + Внутри copy_course
+ + Mon Mar  1 13:15:59 2021 [views] + Ищем курс с именем --> copy_Python
+ + Mon Mar  1 13:15:59 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02CD23A0> с именем Python
+ + Mon Mar  1 13:15:59 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02CD29B8> с именем copy_Python
+ + Mon Mar  1 13:15:59 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x02CD29B8>
+ + Mon Mar  1 13:15:59 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x02CD2E50>
+ + Mon Mar  1 13:15:59 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:16:00 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:16:00 2021 [views] + Внутри copy_course
+ + Mon Mar  1 13:16:00 2021 [views] + Ищем курс с именем --> Python
+ + Mon Mar  1 13:16:00 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02CD23A0> с именем Python
+ + Mon Mar  1 13:16:00 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x02CD23A0>
+ + Mon Mar  1 13:16:00 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x02CD2BE0>
+ + Mon Mar  1 13:16:00 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:16:01 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:16:01 2021 [views] + Внутри copy_course
+ + Mon Mar  1 13:16:01 2021 [views] + Ищем курс с именем --> copy_Python
+ + Mon Mar  1 13:16:01 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02CD23A0> с именем Python
+ + Mon Mar  1 13:16:01 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02CD29B8> с именем copy_Python
+ + Mon Mar  1 13:16:01 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x02CD29B8>
+ + Mon Mar  1 13:16:01 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x02CD2538>
+ + Mon Mar  1 13:16:01 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:16:02 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:16:02 2021 [views] + Внутри copy_course
+ + Mon Mar  1 13:16:02 2021 [views] + Ищем курс с именем --> copy_copy_Python
+ + Mon Mar  1 13:16:02 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02CD23A0> с именем Python
+ + Mon Mar  1 13:16:02 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02CD29B8> с именем copy_Python
+ + Mon Mar  1 13:16:02 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02CD2E50> с именем copy_copy_Python
+ + Mon Mar  1 13:16:02 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x02CD2E50>
+ + Mon Mar  1 13:16:02 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x02CD2358>
+ + Mon Mar  1 13:16:02 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:16:02 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:16:02 2021 [views] + Внутри copy_course
+ + Mon Mar  1 13:16:02 2021 [views] + Ищем курс с именем --> copy_Python
+ + Mon Mar  1 13:16:02 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02CD23A0> с именем Python
+ + Mon Mar  1 13:16:02 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02CD29B8> с именем copy_Python
+ + Mon Mar  1 13:16:02 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x02CD29B8>
+ + Mon Mar  1 13:16:02 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x02C61D18>
+ + Mon Mar  1 13:16:02 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:16:03 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:16:03 2021 [views] + Внутри copy_course
+ + Mon Mar  1 13:16:03 2021 [views] + Ищем курс с именем --> copy_copy_Python
+ + Mon Mar  1 13:16:03 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02CD23A0> с именем Python
+ + Mon Mar  1 13:16:03 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02CD29B8> с именем copy_Python
+ + Mon Mar  1 13:16:03 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02CD2E50> с именем copy_copy_Python
+ + Mon Mar  1 13:16:03 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x02CD2E50>
+ + Mon Mar  1 13:16:03 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x02CD2238>
+ + Mon Mar  1 13:16:03 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:16:03 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:16:03 2021 [views] + Внутри copy_course
+ + Mon Mar  1 13:16:03 2021 [views] + Ищем курс с именем --> copy_copy_Python
+ + Mon Mar  1 13:16:03 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02CD23A0> с именем Python
+ + Mon Mar  1 13:16:03 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02CD29B8> с именем copy_Python
+ + Mon Mar  1 13:16:03 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02CD2E50> с именем copy_copy_Python
+ + Mon Mar  1 13:16:03 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x02CD2E50>
+ + Mon Mar  1 13:16:03 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x02CD4238>
+ + Mon Mar  1 13:16:04 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:16:05 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:16:05 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:16:09 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:16:09 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:16:09 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:16:09 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:16:10 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:16:10 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:16:13 2021 [main] + ----> Отработал secret_front
+ + Mon Mar  1 13:16:13 2021 [views] + Внутри copy_course
+ + Mon Mar  1 13:16:13 2021 [views] + Ищем курс с именем --> Python
+ + Mon Mar  1 13:16:13 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02CD23A0> с именем Python
+ + Mon Mar  1 13:16:13 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x02CD23A0>
+ + Mon Mar  1 13:16:13 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x02CD2640>
+ + Mon Mar  1 13:16:13 2021 [main] + ----> Отработал secret_front

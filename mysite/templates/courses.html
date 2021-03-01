@@ -9,18 +9,25 @@
 {% block content %}
 <h1>Страница курсов</h1>
 <h2>{{value}}</h2>
-        {% if not categories %}
+        {% if not courses %}
         <h2 style="color: red;">НЕТ ДОСТУПНЫХ КУРСОВ</h2>
         {% endif %}
-        <table class="mytable">
 
-            {% for item in categories %}
-                {% for course in item.courses %}
-                    <tr><td>{{item.id}}--->{{item.name}}</td><td>{{course.name}}</td></tr>
+
+
+                {% for course in courses %}
+                <form action = '/copy-course' method='post'>
+                    <input type="hidden" name="name" value={{course.name}}>
+                    <ul>
+                        <li>{{course.category.name}}------>{{course.name}}
+                            <span>
+                                <input type="submit" value="скопировать">
+                            </span>
+                        </li>
+                    </ul>
+                </form>
                 {% endfor %}
-            {% endfor %}
 
-        </table>
 
 {% endblock %}
 
