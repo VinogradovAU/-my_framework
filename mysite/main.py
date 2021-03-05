@@ -26,7 +26,7 @@ except Exception as e:
 def secret_front(request):
     request['secret'] = 'some secret'
     request['value'] = datetime.datetime.now()  # значение даты для вывода в копирайт
-    logger.log('----> Отработал secret_front')
+    # logger.log('----> Отработал secret_front')
 
 
 def urls_list_front(request):

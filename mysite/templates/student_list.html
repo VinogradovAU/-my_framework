@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+     {% block title %}
+        <title>
+            Создание категории
+        </title>
+     {% endblock %}
+
+{% block content %}
+    <h1>Список студентов</h1>
+    <ul>
+
+        {% for item in objects_list %}
+        <li>
+            {{item.name}}:
+            {% for course in item.courses %}
+                {{course.name}};
+            {% endfor %}
+        </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

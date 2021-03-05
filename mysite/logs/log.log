@@ -464,3 +464,603 @@
  + Mon Mar  1 13:16:13 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x02CD23A0>
  + Mon Mar  1 13:16:13 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x02CD2640>
  + Mon Mar  1 13:16:13 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:16:54 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:16:54 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 13:16:54 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:16:56 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:16:57 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:16:57 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:16:59 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:16:59 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:17:00 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:17:00 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:17:00 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:17:00 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:17:01 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:17:01 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:17:01 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:17:01 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 13:17:02 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:37:52 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:37:52 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:37:53 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:37:53 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 13:37:53 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:37:53 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:37:54 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:37:54 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:37:54 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:37:54 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:37:54 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:37:55 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:37:55 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:37:56 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:37:56 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 13:37:56 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:37:57 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:37:57 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:37:57 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:37:57 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:37:58 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:37:58 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:38:02 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:38:02 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:38:02 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:38:02 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:38:03 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 13:38:03 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 13:38:03 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:08:47 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:08:47 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 15:08:47 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:08:48 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:08:49 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:08:49 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:08:50 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:08:50 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:08:50 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:08:50 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:08:51 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:08:51 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:08:51 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:08:51 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:08:52 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:08:52 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 15:08:52 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:12:53 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:12:53 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 15:12:53 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:13:01 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:14:10 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:14:10 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 15:14:10 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:14:19 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:15:11 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:15:11 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 15:15:11 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:16:31 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:18:11 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:18:11 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 15:18:11 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:18:15 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:18:15 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 15:18:15 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:18:16 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:18:16 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:18:16 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:18:16 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:18:22 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:18:32 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:18:32 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 15:18:32 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:18:37 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:25:51 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:25:51 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 15:25:51 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:25:58 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:25:58 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 15:25:58 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:25:58 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:25:58 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:25:59 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:25:59 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:26:02 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:26:02 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:26:03 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:26:05 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:26:05 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:26:13 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:26:13 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:26:14 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:26:14 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 15:26:14 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:26:15 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:26:15 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:26:16 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:26:16 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:26:34 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:26:34 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:26:38 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:26:38 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 15:26:38 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:26:39 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:26:39 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:26:40 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:26:40 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:26:41 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:26:41 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:26:42 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:26:42 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:26:43 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:46:38 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:46:38 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 15:46:38 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:46:40 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:46:40 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:46:41 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:46:41 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:46:41 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:46:42 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:46:42 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:46:42 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:46:43 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:46:43 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:46:47 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:46:47 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:46:49 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:46:49 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:46:50 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:46:50 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:46:50 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 15:46:50 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 16:11:27 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 16:11:27 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 16:11:37 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 16:11:37 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 16:11:39 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 16:11:39 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 16:11:44 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 16:11:44 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:49:50 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:49:50 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:49:50 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:49:51 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:49:51 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 19:49:51 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:49:53 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:49:53 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:49:56 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:49:56 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:49:57 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:49:57 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:49:57 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:49:57 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:49:58 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:49:58 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:50:00 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:50:00 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:53:09 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:53:09 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:53:10 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:53:10 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:53:10 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:53:10 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:53:10 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:53:10 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:53:20 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:59:06 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:59:06 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:59:07 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:59:07 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 19:59:07 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:59:12 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:59:12 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:59:13 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:59:13 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:59:22 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:59:22 2021 [model] + Создаем новый объект категории Python
+ + Thu Mar  4 19:59:22 2021 [views] + site.categories--->[<models.Category object at 0x03478478>]
+ + Thu Mar  4 19:59:22 2021 [views] + получены POST данные: {'name': 'Python'}
+ + Thu Mar  4 19:59:22 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:59:25 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:59:25 2021 [model] + Создаем новый объект категории New_cat-1
+ + Thu Mar  4 19:59:25 2021 [views] + site.categories--->[<models.Category object at 0x03478478>, <models.Category object at 0x034784A8>]
+ + Thu Mar  4 19:59:25 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Thu Mar  4 19:59:25 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:59:28 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:59:28 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:59:34 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:59:34 2021 [views] + В категорию Python добавлен курс Python1222
+ + Thu Mar  4 19:59:34 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:59:46 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:59:46 2021 [views] + В категорию New_cat-1 добавлен курс newcat-211111
+ + Thu Mar  4 19:59:46 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:59:51 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 19:59:51 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:00:05 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:00:05 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:00:10 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:00:10 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:00:18 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:00:18 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:01:09 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:01:09 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 20:01:09 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:01:09 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:01:11 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:01:11 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:01:15 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:01:15 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:33:35 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:33:35 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:33:38 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:33:38 2021 [model] + Создаем новый объект категории New_cat-1
+ + Thu Mar  4 20:33:38 2021 [views] + site.categories--->[<models.Category object at 0x03528520>]
+ + Thu Mar  4 20:33:38 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Thu Mar  4 20:33:38 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:33:40 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:33:40 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:33:43 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:33:43 2021 [views] + В категорию New_cat-1 добавлен курс Python
+ + Thu Mar  4 20:33:43 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:33:45 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:33:45 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:33:48 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:33:48 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:44:32 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:44:32 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 20:44:32 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:44:36 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:44:36 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:44:38 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:44:38 2021 [model] + Создаем новый объект категории New_cat-1
+ + Thu Mar  4 20:44:38 2021 [views] + site.categories--->[<models.Category object at 0x02E48C58>]
+ + Thu Mar  4 20:44:38 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Thu Mar  4 20:44:38 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:44:41 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:44:41 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:44:44 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:44:44 2021 [views] + В категорию New_cat-1 добавлен курс Python
+ + Thu Mar  4 20:44:44 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:44:45 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:44:45 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:44:48 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 20:44:48 2021 [main] + ----> Отработал secret_front
+ + Thu Mar  4 21:00:21 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 21:00:26 2021 [model] + Создаем новый объект категории New_cat-1
+ + Thu Mar  4 21:00:26 2021 [views] + site.categories--->[<models.Category object at 0x02BF8C58>]
+ + Thu Mar  4 21:00:26 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Thu Mar  4 21:00:33 2021 [views] + В категорию New_cat-1 добавлен курс Python
+ + Thu Mar  4 21:05:39 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 21:05:47 2021 [model] + Создаем новый объект категории New_cat-1
+ + Thu Mar  4 21:05:47 2021 [views] + site.categories--->[<models.Category object at 0x02BA8C58>]
+ + Thu Mar  4 21:05:47 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Thu Mar  4 21:05:54 2021 [views] + В категорию New_cat-1 добавлен курс Python
+ + Thu Mar  4 21:06:04 2021 [model] + я в методе create UserFactory c типом Student
+ + Thu Mar  4 21:08:52 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 21:09:01 2021 [model] + Создаем новый объект категории New_cat-1
+ + Thu Mar  4 21:09:01 2021 [views] + site.categories--->[<models.Category object at 0x03D105C8>]
+ + Thu Mar  4 21:09:01 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Thu Mar  4 21:09:09 2021 [views] + В категорию New_cat-1 добавлен курс Python
+ + Thu Mar  4 21:09:16 2021 [model] + я в методе create UserFactory c типом Student
+ + Thu Mar  4 21:11:20 2021 [model] + я в методе create UserFactory c типом Student
+ + Thu Mar  4 21:13:35 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 21:14:17 2021 [model] + я в методе create UserFactory c типом Student
+ + Thu Mar  4 21:16:11 2021 [model] + я в методе create UserFactory c типом Student
+ + Thu Mar  4 21:16:17 2021 [model] + я в методе create UserFactory c типом Student
+ + Thu Mar  4 21:26:25 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 21:28:31 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 21:30:31 2021 [model] + я в методе create UserFactory c типом Student
+ + Thu Mar  4 23:13:57 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 23:19:23 2021 [model] + я в методе create UserFactory c типом Student
+ + Thu Mar  4 23:21:06 2021 [model] + я в методе create UserFactory c типом Student
+ + Thu Mar  4 23:22:12 2021 [model] + я в методе create UserFactory c типом student
+ + Thu Mar  4 23:22:12 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Thu Mar  4 23:22:12 2021 [views] + Студент с именем AndryAndry зарегистрирован в системе
+ + Thu Mar  4 23:22:12 2021 [model] + я в методе create UserFactory c типом student
+ + Thu Mar  4 23:22:12 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Thu Mar  4 23:22:12 2021 [views] + Студент с именем AndryAndry зарегистрирован в системе
+ + Thu Mar  4 23:22:19 2021 [model] + я в методе create UserFactory c типом student
+ + Thu Mar  4 23:22:19 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Thu Mar  4 23:22:19 2021 [views] + Студент с именем AndryAndry зарегистрирован в системе
+ + Thu Mar  4 23:25:08 2021 [model] + я в методе create UserFactory c типом student
+ + Thu Mar  4 23:25:08 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Thu Mar  4 23:25:08 2021 [views] + Студент с именем AndryAndry зарегистрирован в системе
+ + Thu Mar  4 23:25:19 2021 [views] + Студент с именем AndryAndry уже зарегистрирован
+ + Thu Mar  4 23:25:56 2021 [model] + я в методе create UserFactory c типом student
+ + Thu Mar  4 23:25:56 2021 [model] + я в __init__ класса Student перед super().__init__(Petya)
+ + Thu Mar  4 23:25:56 2021 [views] + Студент с именем Petya зарегистрирован в системе
+ + Thu Mar  4 23:26:13 2021 [model] + я в методе create UserFactory c типом student
+ + Thu Mar  4 23:26:13 2021 [model] + я в __init__ класса Student перед super().__init__(Vasya Pupkin)
+ + Thu Mar  4 23:26:13 2021 [views] + Студент с именем Vasya Pupkin зарегистрирован в системе
+ + Thu Mar  4 23:35:30 2021 [model] + Создаем новый объект категории Python
+ + Thu Mar  4 23:35:30 2021 [views] + site.categories--->[<models.Category object at 0x03004238>]
+ + Thu Mar  4 23:35:30 2021 [views] + получены POST данные: {'name': 'Python'}
+ + Thu Mar  4 23:35:32 2021 [model] + Создаем новый объект категории New_cat-1
+ + Thu Mar  4 23:35:32 2021 [views] + site.categories--->[<models.Category object at 0x03004238>, <models.Category object at 0x03004568>]
+ + Thu Mar  4 23:35:32 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Thu Mar  4 23:35:41 2021 [views] + В категорию Python добавлен курс Python1111
+ + Thu Mar  4 23:35:51 2021 [views] + В категорию New_cat-1 добавлен курс newcat-1
+ + Thu Mar  4 23:36:09 2021 [model] + я в методе create UserFactory c типом student
+ + Thu Mar  4 23:36:09 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Thu Mar  4 23:36:09 2021 [views] + Студент с именем AndryAndry зарегистрирован в системе
+ + Thu Mar  4 23:36:20 2021 [model] + я в методе create UserFactory c типом student
+ + Thu Mar  4 23:36:20 2021 [model] + я в __init__ класса Student перед super().__init__(Vsya Pupkin)
+ + Thu Mar  4 23:36:20 2021 [views] + Студент с именем Vsya Pupkin зарегистрирован в системе
+ + Thu Mar  4 23:50:25 2021 [model] + Создаем новый объект категории New_cat-1
+ + Thu Mar  4 23:50:25 2021 [views] + site.categories--->[<models.Category object at 0x035E9BF8>]
+ + Thu Mar  4 23:50:25 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Thu Mar  4 23:50:33 2021 [views] + В категорию New_cat-1 добавлен курс Python
+ + Thu Mar  4 23:50:41 2021 [model] + я в методе create UserFactory c типом student
+ + Thu Mar  4 23:50:41 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Thu Mar  4 23:50:41 2021 [views] + Студент с именем AndryAndry зарегистрирован в системе
+ + Thu Mar  4 23:50:51 2021 [model] + я в методе create UserFactory c типом student
+ + Thu Mar  4 23:50:51 2021 [model] + я в __init__ класса Student перед super().__init__(Bob)
+ + Thu Mar  4 23:50:51 2021 [views] + Студент с именем Bob зарегистрирован в системе
+ + Thu Mar  4 23:52:52 2021 [views] + ----> Отработал index_view
+ + Thu Mar  4 23:52:58 2021 [model] + Создаем новый объект категории Python
+ + Thu Mar  4 23:52:58 2021 [views] + site.categories--->[<models.Category object at 0x03948C58>]
+ + Thu Mar  4 23:52:58 2021 [views] + получены POST данные: {'name': 'Python'}
+ + Thu Mar  4 23:53:04 2021 [model] + Создаем новый объект категории New_cat-1
+ + Thu Mar  4 23:53:04 2021 [views] + site.categories--->[<models.Category object at 0x03948C58>, <models.Category object at 0x03948490>]
+ + Thu Mar  4 23:53:04 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Thu Mar  4 23:53:07 2021 [model] + Создаем новый объект категории newcat-2
+ + Thu Mar  4 23:53:07 2021 [views] + site.categories--->[<models.Category object at 0x03948C58>, <models.Category object at 0x03948490>, <models.Category object at 0x03948F28>]
+ + Thu Mar  4 23:53:07 2021 [views] + получены POST данные: {'name': 'newcat-2'}
+ + Thu Mar  4 23:53:18 2021 [views] + В категорию Python добавлен курс Python11
+ + Thu Mar  4 23:53:23 2021 [views] + В категорию Python добавлен курс newcat-11
+ + Thu Mar  4 23:53:30 2021 [views] + В категорию New_cat-1 добавлен курс newcat-222
+ + Thu Mar  4 23:53:42 2021 [views] + В категорию newcat-2 добавлен курс newcat-2 6666666
+ + Thu Mar  4 23:53:47 2021 [model] + я в методе create UserFactory c типом student
+ + Thu Mar  4 23:53:47 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Thu Mar  4 23:53:47 2021 [views] + Студент с именем AndryAndry зарегистрирован в системе
+ + Thu Mar  4 23:54:00 2021 [model] + я в методе create UserFactory c типом student
+ + Thu Mar  4 23:54:00 2021 [model] + я в __init__ класса Student перед super().__init__(Vasya Pupkin)
+ + Thu Mar  4 23:54:00 2021 [views] + Студент с именем Vasya Pupkin зарегистрирован в системе
+ + Thu Mar  4 23:54:20 2021 [model] + найден объект студент <models.Student object at 0x03985C58> с именем AndryAndry
+ + Thu Mar  4 23:54:20 2021 [model] + найден объект студент <models.Student object at 0x03985670> с именем Vasya Pupkin
+ + Thu Mar  4 23:54:20 2021 [model] + найден объект курса <models.OfflineCourse object at 0x03985760> с именем Python11
+ + Thu Mar  4 23:54:20 2021 [model] + найден объект студент <models.Student object at 0x03985C58> с именем AndryAndry
+ + Thu Mar  4 23:54:20 2021 [model] + найден объект курса <models.OfflineCourse object at 0x03985760> с именем Python11
+ + Thu Mar  4 23:57:32 2021 [model] + я в методе create UserFactory c типом student
+ + Thu Mar  4 23:57:32 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Thu Mar  4 23:57:32 2021 [views] + Студент с именем AndryAndry зарегистрирован в системе
+ + Thu Mar  4 23:57:37 2021 [model] + я в методе create UserFactory c типом student
+ + Thu Mar  4 23:57:37 2021 [model] + я в __init__ класса Student перед super().__init__(Vasya Pupkin)
+ + Thu Mar  4 23:57:37 2021 [views] + Студент с именем Vasya Pupkin зарегистрирован в системе
+ + Thu Mar  4 23:57:45 2021 [model] + Создаем новый объект категории Python
+ + Thu Mar  4 23:57:45 2021 [views] + site.categories--->[<models.Category object at 0x02D88F70>]
+ + Thu Mar  4 23:57:45 2021 [views] + получены POST данные: {'name': 'Python'}
+ + Thu Mar  4 23:57:56 2021 [views] + В категорию Python добавлен курс Python3
+ + Thu Mar  4 23:58:10 2021 [views] + Внутри copy_course
+ + Thu Mar  4 23:58:10 2021 [views] + Ищем курс с именем --> Python3
+ + Thu Mar  4 23:58:10 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02DB37D8> с именем Python3
+ + Thu Mar  4 23:58:10 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x02DB37D8>
+ + Thu Mar  4 23:58:10 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x02DB3BF8>
+ + Thu Mar  4 23:58:20 2021 [model] + найден объект студент <models.Student object at 0x02D88BF8> с именем AndryAndry
+ + Thu Mar  4 23:58:20 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02DB37D8> с именем Python3
+ + Thu Mar  4 23:59:35 2021 [model] + найден объект студент <models.Student object at 0x02D88BF8> с именем AndryAndry
+ + Thu Mar  4 23:59:35 2021 [model] + найден объект студент <models.Student object at 0x02D88460> с именем Vasya Pupkin
+ + Thu Mar  4 23:59:35 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02DB37D8> с именем Python3
+ + Thu Mar  4 23:59:35 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02DB3BF8> с именем copy_Python3
+ + Fri Mar  5 00:01:37 2021 [model] + найден объект студент <models.Student object at 0x02D88BF8> с именем AndryAndry
+ + Fri Mar  5 00:01:37 2021 [model] + найден объект студент <models.Student object at 0x02D88460> с именем Vasya Pupkin
+ + Fri Mar  5 00:01:37 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02DB37D8> с именем Python3
+ + Fri Mar  5 00:04:30 2021 [model] + найден объект студент <models.Student object at 0x02D88BF8> с именем AndryAndry
+ + Fri Mar  5 00:04:30 2021 [model] + найден объект студент <models.Student object at 0x02D88460> с именем Vasya Pupkin
+ + Fri Mar  5 00:04:30 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02DB37D8> с именем Python3
+ + Fri Mar  5 00:04:30 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02DB3BF8> с именем copy_Python3
+ + Fri Mar  5 00:06:06 2021 [model] + найден объект студент <models.Student object at 0x02D88BF8> с именем AndryAndry
+ + Fri Mar  5 00:06:06 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02DB37D8> с именем Python3
+ + Fri Mar  5 13:48:43 2021 [views] + ----> Отработал index_view
+ + Fri Mar  5 13:48:50 2021 [model] + Создаем новый объект категории New_cat-1
+ + Fri Mar  5 13:48:50 2021 [views] + site.categories--->[<models.Category object at 0x03538F40>]
+ + Fri Mar  5 13:48:50 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Fri Mar  5 13:48:55 2021 [views] + В категорию New_cat-1 добавлен курс Тестовый шкаф
+ + Fri Mar  5 13:49:00 2021 [model] + я в методе create UserFactory c типом student
+ + Fri Mar  5 13:49:00 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Fri Mar  5 13:49:00 2021 [views] + Студент с именем AndryAndry зарегистрирован в системе
+ + Fri Mar  5 13:49:07 2021 [model] + я в методе create UserFactory c типом student
+ + Fri Mar  5 13:49:07 2021 [model] + я в __init__ класса Student перед super().__init__(Vasya Pupkin)
+ + Fri Mar  5 13:49:07 2021 [views] + Студент с именем Vasya Pupkin зарегистрирован в системе
+ + Fri Mar  5 13:49:22 2021 [model] + найден объект студент <models.Student object at 0x03538AA8> с именем AndryAndry
+ + Fri Mar  5 13:49:22 2021 [model] + найден объект курса <models.OfflineCourse object at 0x03538520> с именем Тестовый шкаф
+ + Fri Mar  5 13:51:29 2021 [model] + Создаем новый объект категории New_cat-1
+ + Fri Mar  5 13:51:29 2021 [views] + site.categories--->[<models.Category object at 0x03438520>]
+ + Fri Mar  5 13:51:29 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Fri Mar  5 13:52:13 2021 [views] + В категорию New_cat-1 добавлен курс Python
+ + Fri Mar  5 13:52:16 2021 [model] + я в методе create UserFactory c типом student
+ + Fri Mar  5 13:52:16 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Fri Mar  5 13:52:16 2021 [views] + Студент с именем AndryAndry зарегистрирован в системе
+ + Fri Mar  5 13:52:23 2021 [model] + найден объект студент <models.Student object at 0x03438E08> с именем AndryAndry
+ + Fri Mar  5 13:52:23 2021 [model] + найден объект курса <models.OfflineCourse object at 0x03438D90> с именем Python
+ + Fri Mar  5 13:58:59 2021 [views] + ----> Отработал index_view
+ + Fri Mar  5 13:59:09 2021 [model] + Создаем новый объект категории New_cat-1
+ + Fri Mar  5 13:59:09 2021 [views] + site.categories--->[<models.Category object at 0x0319DC70>]
+ + Fri Mar  5 13:59:09 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Fri Mar  5 13:59:14 2021 [views] + В категорию New_cat-1 добавлен курс Python
+ + Fri Mar  5 13:59:18 2021 [model] + я в методе create UserFactory c типом student
+ + Fri Mar  5 13:59:18 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Fri Mar  5 13:59:18 2021 [views] + Студент с именем AndryAndry зарегистрирован в системе
+ + Fri Mar  5 13:59:22 2021 [model] + найден объект студент <models.Student object at 0x0319DC10> с именем AndryAndry
+ + Fri Mar  5 13:59:22 2021 [model] + найден объект курса <models.OfflineCourse object at 0x0319DE38> с именем Python
+ + Fri Mar  5 13:59:22 2021 [model] + add_student перед notify
+ + Fri Mar  5 14:01:15 2021 [model] + Создаем новый объект категории New_cat-1
+ + Fri Mar  5 14:01:15 2021 [views] + site.categories--->[<models.Category object at 0x0372D550>]
+ + Fri Mar  5 14:01:15 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Fri Mar  5 14:01:18 2021 [model] + Создаем новый объект категории newcat-2
+ + Fri Mar  5 14:01:18 2021 [views] + site.categories--->[<models.Category object at 0x0372D550>, <models.Category object at 0x0372DCD0>]
+ + Fri Mar  5 14:01:18 2021 [views] + получены POST данные: {'name': 'newcat-2'}
+ + Fri Mar  5 14:01:25 2021 [views] + В категорию New_cat-1 добавлен курс Python
+ + Fri Mar  5 14:01:32 2021 [views] + В категорию newcat-2 добавлен курс Python111111111
+ + Fri Mar  5 14:04:05 2021 [views] + ----> Отработал index_view
+ + Fri Mar  5 14:04:11 2021 [model] + Создаем новый объект категории New_cat-1
+ + Fri Mar  5 14:04:11 2021 [views] + site.categories--->[<models.Category object at 0x0396DC88>]
+ + Fri Mar  5 14:04:11 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Fri Mar  5 14:04:17 2021 [views] + В категорию New_cat-1 добавлен курс Python
+ + Fri Mar  5 14:04:26 2021 [views] + Метод view course_api
+ + Fri Mar  5 14:04:56 2021 [views] + ----> Отработал index_view
+ + Fri Mar  5 14:05:00 2021 [model] + Создаем новый объект категории New_cat-1
+ + Fri Mar  5 14:05:00 2021 [views] + site.categories--->[<models.Category object at 0x044DE5E0>]
+ + Fri Mar  5 14:05:00 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Fri Mar  5 14:05:06 2021 [views] + В категорию New_cat-1 добавлен курс Python
+ + Fri Mar  5 14:05:12 2021 [views] + В категорию New_cat-1 добавлен курс Python111111111
+ + Fri Mar  5 14:05:19 2021 [views] + Метод view course_api
+ + Fri Mar  5 14:56:27 2021 [views] + ----> Отработал index_view
+ + Fri Mar  5 14:56:34 2021 [model] + Создаем новый объект категории New_cat-1
+ + Fri Mar  5 14:56:34 2021 [views] + site.categories--->[<models.Category object at 0x03AADC88>]
+ + Fri Mar  5 14:56:34 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Fri Mar  5 14:56:39 2021 [views] + В категорию New_cat-1 добавлен курс Python
+ + Fri Mar  5 14:56:45 2021 [model] + я в методе create UserFactory c типом student
+ + Fri Mar  5 14:56:45 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Fri Mar  5 14:56:45 2021 [views] + Студент с именем AndryAndry зарегистрирован в системе
+ + Fri Mar  5 14:56:57 2021 [model] + найден объект студент <models.Student object at 0x03AAD850> с именем AndryAndry
+ + Fri Mar  5 14:56:57 2021 [model] + найден объект курса <models.OfflineCourse object at 0x03AADD78> с именем Python
+ + Fri Mar  5 14:56:57 2021 [model] + add_student перед notify
+ + Fri Mar  5 14:57:06 2021 [views] + Метод view course_api передаю [<models.OfflineCourse object at 0x03AADD78>]
+ + Fri Mar  5 14:58:48 2021 [model] + Создаем новый объект категории New_cat-1
+ + Fri Mar  5 14:58:48 2021 [views] + site.categories--->[<models.Category object at 0x0362DCB8>]
+ + Fri Mar  5 14:58:48 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Fri Mar  5 14:58:53 2021 [views] + В категорию New_cat-1 добавлен курс Python
+ + Fri Mar  5 14:58:58 2021 [model] + я в методе create UserFactory c типом student
+ + Fri Mar  5 14:58:58 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Fri Mar  5 14:58:58 2021 [views] + Студент с именем AndryAndry зарегистрирован в системе
+ + Fri Mar  5 14:59:02 2021 [model] + найден объект студент <models.Student object at 0x0362D838> с именем AndryAndry
+ + Fri Mar  5 14:59:02 2021 [model] + найден объект курса <models.OfflineCourse object at 0x0362DE20> с именем Python
+ + Fri Mar  5 14:59:02 2021 [model] + add_student перед notify
+ + Fri Mar  5 14:59:07 2021 [views] + Метод view course_api передаю [<models.OfflineCourse object at 0x0362DE20>]
+ + Fri Mar  5 15:00:31 2021 [model] + Создаем новый объект категории New_cat-1
+ + Fri Mar  5 15:00:31 2021 [views] + site.categories--->[<models.Category object at 0x033AD538>]
+ + Fri Mar  5 15:00:31 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Fri Mar  5 15:00:36 2021 [views] + В категорию New_cat-1 добавлен курс Python
+ + Fri Mar  5 15:00:41 2021 [model] + я в методе create UserFactory c типом student
+ + Fri Mar  5 15:00:41 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Fri Mar  5 15:00:41 2021 [views] + Студент с именем AndryAndry зарегистрирован в системе
+ + Fri Mar  5 15:00:44 2021 [model] + найден объект студент <models.Student object at 0x033ADF58> с именем AndryAndry
+ + Fri Mar  5 15:00:44 2021 [model] + найден объект курса <models.OfflineCourse object at 0x033AD8C8> с именем Python
+ + Fri Mar  5 15:00:44 2021 [model] + add_student перед notify
+ + Fri Mar  5 15:00:48 2021 [views] + Метод view course_api передаю [<models.OfflineCourse object at 0x033AD8C8>]
+ + Fri Mar  5 15:07:31 2021 [views] + ----> Отработал index_view
+ + Fri Mar  5 15:07:37 2021 [model] + Создаем новый объект категории New_cat-1
+ + Fri Mar  5 15:07:37 2021 [views] + site.categories--->[<models.Category object at 0x037ADC70>]
+ + Fri Mar  5 15:07:37 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Fri Mar  5 15:07:42 2021 [views] + В категорию New_cat-1 добавлен курс Python
+ + Fri Mar  5 15:07:50 2021 [model] + я в методе create UserFactory c типом student
+ + Fri Mar  5 15:07:50 2021 [model] + я в __init__ класса Student перед super().__init__(Vasya Pupkin)
+ + Fri Mar  5 15:07:50 2021 [views] + Студент с именем Vasya Pupkin зарегистрирован в системе
+ + Fri Mar  5 15:07:54 2021 [model] + найден объект студент <models.Student object at 0x037AD838> с именем Vasya Pupkin
+ + Fri Mar  5 15:07:54 2021 [model] + найден объект курса <models.OfflineCourse object at 0x037ADD60> с именем Python
+ + Fri Mar  5 15:07:54 2021 [model] + add_student перед notify
+ + Fri Mar  5 15:07:59 2021 [views] + Отправка данных /api/ --->
+ + Fri Mar  5 15:09:04 2021 [views] + Отправка данных /api/ --->[]
+ + Fri Mar  5 15:09:11 2021 [model] + Создаем новый объект категории New_cat-1
+ + Fri Mar  5 15:09:11 2021 [views] + site.categories--->[<models.Category object at 0x0369D520>]
+ + Fri Mar  5 15:09:11 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Fri Mar  5 15:09:17 2021 [views] + В категорию New_cat-1 добавлен курс Python
+ + Fri Mar  5 15:09:24 2021 [model] + я в методе create UserFactory c типом student
+ + Fri Mar  5 15:09:24 2021 [model] + я в __init__ класса Student перед super().__init__(Vasya Pupkin)
+ + Fri Mar  5 15:09:24 2021 [views] + Студент с именем Vasya Pupkin зарегистрирован в системе
+ + Fri Mar  5 15:09:28 2021 [model] + найден объект студент <models.Student object at 0x0369D940> с именем Vasya Pupkin
+ + Fri Mar  5 15:09:28 2021 [model] + найден объект курса <models.OfflineCourse object at 0x0369D8E0> с именем Python
+ + Fri Mar  5 15:09:28 2021 [model] + add_student перед notify
+ + Fri Mar  5 15:09:32 2021 [views] + ----> Отработал index_view
+ + Fri Mar  5 15:09:38 2021 [views] + Отправка данных /api/ --->[{"py/object": "models.OfflineCourse", "name": "Python", "category": {"py/object": "models.Category", "id": 0, "name": "New_cat-1", "category": null, "courses": [{"py/id": 1}]}, "students": [{"py/object": "models.Student", "courses": [{"py/id": 1}], "name": "Vasya Pupkin"}], "observers": [{"py/object": "models.EmailNotifier"}, {"py/object": "models.SmsNotifier"}]}]
+ + Fri Mar  5 15:09:43 2021 [views] + Отправка данных /api/ --->[{"py/object": "models.OfflineCourse", "name": "Python", "category": {"py/object": "models.Category", "id": 0, "name": "New_cat-1", "category": null, "courses": [{"py/id": 1}]}, "students": [{"py/object": "models.Student", "courses": [{"py/id": 1}], "name": "Vasya Pupkin"}], "observers": [{"py/object": "models.EmailNotifier"}, {"py/object": "models.SmsNotifier"}]}]
+ + Fri Mar  5 15:11:27 2021 [model] + Создаем новый объект категории New_cat-1
+ + Fri Mar  5 15:11:27 2021 [views] + site.categories--->[<models.Category object at 0x03199538>]
+ + Fri Mar  5 15:11:27 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Fri Mar  5 15:11:32 2021 [views] + В категорию New_cat-1 добавлен курс Python
+ + Fri Mar  5 15:11:39 2021 [model] + я в методе create UserFactory c типом student
+ + Fri Mar  5 15:11:39 2021 [model] + я в __init__ класса Student перед super().__init__(Vasya Pupkin)
+ + Fri Mar  5 15:11:39 2021 [views] + Студент с именем Vasya Pupkin зарегистрирован в системе
+ + Fri Mar  5 15:11:43 2021 [model] + найден объект студент <models.Student object at 0x03199F58> с именем Vasya Pupkin
+ + Fri Mar  5 15:11:43 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031998C8> с именем Python
+ + Fri Mar  5 15:11:43 2021 [model] + add_student перед notify
+ + Fri Mar  5 15:11:45 2021 [views] + ----> Отработал index_view
+ + Fri Mar  5 15:11:48 2021 [views] + Отправка данных /api/ --->[{"py/object": "models.OfflineCourse", "name": "Python", "category": {"py/object": "models.Category", "id": 0, "name": "New_cat-1", "category": null, "courses": [{"py/id": 1}]}, "students": [{"py/object": "models.Student", "courses": [{"py/id": 1}], "name": "Vasya Pupkin"}], "observers": [{"py/object": "models.EmailNotifier"}, {"py/object": "models.SmsNotifier"}]}]
+ + Fri Mar  5 15:34:06 2021 [views] + ----> Отработал index_view
+ + Fri Mar  5 15:47:31 2021 [views] + ----> Отработал index_view
+ + Fri Mar  5 15:47:46 2021 [model] + Создаем новый объект категории New_cat-1
+ + Fri Mar  5 15:47:46 2021 [views] + site.categories--->[<models.Category object at 0x031AF760>]
+ + Fri Mar  5 15:47:46 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Fri Mar  5 15:51:06 2021 [views] + В категорию New_cat-1 добавлен курс Python
+ + Fri Mar  5 16:00:49 2021 [model] + Создаем новый объект категории newcat-2
+ + Fri Mar  5 16:00:49 2021 [views] + site.categories--->[<models.Category object at 0x031AF760>, <models.Category object at 0x031E4118>]
+ + Fri Mar  5 16:00:49 2021 [views] + получены POST данные: {'name': 'newcat-2'}
+ + Fri Mar  5 16:01:02 2021 [views] + В категорию newcat-2 добавлен курс newcat-211111111
+ + Fri Mar  5 16:01:07 2021 [views] + В категорию New_cat-1 добавлен курс Python12121212
+ + Fri Mar  5 16:01:16 2021 [views] + В категорию newcat-2 добавлен курс 353535test
+ + Fri Mar  5 16:01:33 2021 [views] + Внутри copy_course
+ + Fri Mar  5 16:01:33 2021 [views] + Ищем курс с именем --> 353535test
+ + Fri Mar  5 16:01:33 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031E4340> с именем Python
+ + Fri Mar  5 16:01:33 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031E4928> с именем newcat-211111111
+ + Fri Mar  5 16:01:33 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031E47D8> с именем Python12121212
+ + Fri Mar  5 16:01:33 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031AFB08> с именем 353535test
+ + Fri Mar  5 16:01:33 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x031AFB08>
+ + Fri Mar  5 16:01:33 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x031E49E8>
+ + Fri Mar  5 16:01:34 2021 [views] + Внутри copy_course
+ + Fri Mar  5 16:01:34 2021 [views] + Ищем курс с именем --> 353535test
+ + Fri Mar  5 16:01:34 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031E4340> с именем Python
+ + Fri Mar  5 16:01:34 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031E4928> с именем newcat-211111111
+ + Fri Mar  5 16:01:34 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031E47D8> с именем Python12121212
+ + Fri Mar  5 16:01:34 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031AFB08> с именем 353535test
+ + Fri Mar  5 16:01:34 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x031AFB08>
+ + Fri Mar  5 16:01:34 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x031FC418>
+ + Fri Mar  5 16:01:36 2021 [views] + Внутри copy_course
+ + Fri Mar  5 16:01:36 2021 [views] + Ищем курс с именем --> copy_353535test
+ + Fri Mar  5 16:01:36 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031E4340> с именем Python
+ + Fri Mar  5 16:01:36 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031E4928> с именем newcat-211111111
+ + Fri Mar  5 16:01:36 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031E47D8> с именем Python12121212
+ + Fri Mar  5 16:01:36 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031AFB08> с именем 353535test
+ + Fri Mar  5 16:01:36 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031E49E8> с именем copy_353535test
+ + Fri Mar  5 16:01:36 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x031E49E8>
+ + Fri Mar  5 16:01:36 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x031FC730>
+ + Fri Mar  5 16:01:42 2021 [model] + я в методе create UserFactory c типом student
+ + Fri Mar  5 16:01:42 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Fri Mar  5 16:01:42 2021 [views] + Студент с именем AndryAndry зарегистрирован в системе
+ + Fri Mar  5 16:01:50 2021 [model] + я в методе create UserFactory c типом student
+ + Fri Mar  5 16:01:50 2021 [model] + я в __init__ класса Student перед super().__init__(Viktor A)
+ + Fri Mar  5 16:01:50 2021 [views] + Студент с именем Viktor A зарегистрирован в системе
+ + Fri Mar  5 16:01:55 2021 [model] + найден объект студент <models.Student object at 0x031E4B80> с именем AndryAndry
+ + Fri Mar  5 16:01:55 2021 [model] + найден объект студент <models.Student object at 0x031E4448> с именем Viktor A
+ + Fri Mar  5 16:01:55 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031E4340> с именем Python
+ + Fri Mar  5 16:01:55 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031E4928> с именем newcat-211111111
+ + Fri Mar  5 16:01:55 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031E47D8> с именем Python12121212
+ + Fri Mar  5 16:01:55 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031AFB08> с именем 353535test
+ + Fri Mar  5 16:01:55 2021 [model] + add_student перед notify
+ + Fri Mar  5 16:01:59 2021 [model] + найден объект студент <models.Student object at 0x031E4B80> с именем AndryAndry
+ + Fri Mar  5 16:01:59 2021 [model] + найден объект студент <models.Student object at 0x031E4448> с именем Viktor A
+ + Fri Mar  5 16:01:59 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031E4340> с именем Python
+ + Fri Mar  5 16:01:59 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031E4928> с именем newcat-211111111
+ + Fri Mar  5 16:01:59 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031E47D8> с именем Python12121212
+ + Fri Mar  5 16:01:59 2021 [model] + add_student перед notify
+ + Fri Mar  5 16:02:02 2021 [model] + найден объект студент <models.Student object at 0x031E4B80> с именем AndryAndry
+ + Fri Mar  5 16:02:02 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031E4340> с именем Python
+ + Fri Mar  5 16:02:02 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031E4928> с именем newcat-211111111
+ + Fri Mar  5 16:02:02 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031E47D8> с именем Python12121212
+ + Fri Mar  5 16:02:02 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031AFB08> с именем 353535test
+ + Fri Mar  5 16:02:02 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031E49E8> с именем copy_353535test
+ + Fri Mar  5 16:02:02 2021 [model] + add_student перед notify
+ + Fri Mar  5 16:02:12 2021 [model] + я в методе create UserFactory c типом student
+ + Fri Mar  5 16:02:12 2021 [model] + я в __init__ класса Student перед super().__init__(Vasya Pupkin)
+ + Fri Mar  5 16:02:12 2021 [views] + Студент с именем Vasya Pupkin зарегистрирован в системе
+ + Fri Mar  5 16:02:18 2021 [model] + найден объект студент <models.Student object at 0x031E4B80> с именем AndryAndry
+ + Fri Mar  5 16:02:18 2021 [model] + найден объект студент <models.Student object at 0x031E4448> с именем Viktor A
+ + Fri Mar  5 16:02:18 2021 [model] + найден объект студент <models.Student object at 0x031FC280> с именем Vasya Pupkin
+ + Fri Mar  5 16:02:18 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031E4340> с именем Python
+ + Fri Mar  5 16:02:18 2021 [model] + add_student перед notify
+ + Fri Mar  5 16:02:20 2021 [model] + найден объект студент <models.Student object at 0x031E4B80> с именем AndryAndry
+ + Fri Mar  5 16:02:20 2021 [model] + найден объект студент <models.Student object at 0x031E4448> с именем Viktor A
+ + Fri Mar  5 16:02:20 2021 [model] + найден объект студент <models.Student object at 0x031FC280> с именем Vasya Pupkin
+ + Fri Mar  5 16:02:20 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031E4340> с именем Python
+ + Fri Mar  5 16:02:20 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031E4928> с именем newcat-211111111
+ + Fri Mar  5 16:02:20 2021 [model] + add_student перед notify
+ + Fri Mar  5 16:02:23 2021 [model] + найден объект студент <models.Student object at 0x031E4B80> с именем AndryAndry
+ + Fri Mar  5 16:02:23 2021 [model] + найден объект студент <models.Student object at 0x031E4448> с именем Viktor A
+ + Fri Mar  5 16:02:23 2021 [model] + найден объект студент <models.Student object at 0x031FC280> с именем Vasya Pupkin
+ + Fri Mar  5 16:02:23 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031E4340> с именем Python
+ + Fri Mar  5 16:02:23 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031E4928> с именем newcat-211111111
+ + Fri Mar  5 16:02:23 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031E47D8> с именем Python12121212
+ + Fri Mar  5 16:02:23 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031AFB08> с именем 353535test
+ + Fri Mar  5 16:02:23 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031E49E8> с именем copy_353535test
+ + Fri Mar  5 16:02:23 2021 [model] + add_student перед notify

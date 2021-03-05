@@ -9,13 +9,13 @@
 {% block content %}
 <h1>Страница категорий</h1>
 <h2>{{value}}</h2>
-        {% if not categories %}
+        {% if not objects_list %}
         <h2>Категории еще не созданы</h2>
         {% endif %}
 
         <table class="mytable">
 
-            {% for item in categories %}
+            {% for item in objects_list %}
             <tr><td>{{item.id}}--->{{item.name}}</td></tr>
             {% endfor %}
 

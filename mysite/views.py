@@ -8,11 +8,15 @@ except Exception as e:
 
 import logging_mod
 
-from models import TrainingSite
+from models import TrainingSite, EmailNotifier, SmsNotifier, BaseSerializer
+from cbv_classes import ListView, CreateView
 
 logger = logging_mod.Logger('views')
 site = TrainingSite()
+email_notifier = EmailNotifier()
+sms_notifier = SmsNotifier()
 urlpatterns = {}
+
 
 def add_route(url):
     # паттерн-декоратор
@@ -50,6 +54,8 @@ def contacts_view(request):
                              urls=urls,
                              get_params=get_params)]
 
+
+'''
 @logging_mod.debug
 @add_route('/categories/')
 def categories_view(request):
@@ -58,11 +64,12 @@ def categories_view(request):
                              value="categories_view",
                              urls=urls,
                              categories=site.categories)]
+'''
 
-# @application.add_route('/style.css/')
+@add_route('/style.css/')
 @logging_mod.debug
 def css_view(request):
-    print(f'i am in css_view')
+    # print(f'i am in css_view')
     return '222 OK', [render('style.css', folder='./static/')]
 
 
@@ -76,22 +83,25 @@ class Courses:
                                  urls=urls,
                                  courses=site.courses)]
 
+
 @add_route('/create_course/')
 def create_course(request):
     urls = request.get('urls', None)
     print(f'я в create_course view')
     try:
         if request['post_params']:
-            print(f'request["post_params"]--->{request["post_params"]}')
+            # print(f'request["post_params"]--->{request["post_params"]}')
             cat_id = request['post_params']['category_id']
-            print(f'cat_id = {cat_id}')
+            # print(f'cat_id = {cat_id}')
             cat_obj = site.find_category_by_id(int(cat_id))
-            print(f'cat_obj type = {type(cat_obj)}, {cat_obj.name}')
+            # print(f'cat_obj type = {type(cat_obj)}, {cat_obj.name}')
 
             type_of_course = 'interactive'
             if request["post_params"]['on_off_line']:
                 type_of_course = 'OfflineCourse'
             course = site.create_course(type_of_course, request['post_params']['name'], cat_obj)
+            course.observers.append(email_notifier)
+            course.observers.append(sms_notifier)
             site.courses.append(course)
             logger.log(f"В категорию {cat_obj.name} добавлен курс {request['post_params']['name']}")
             return '200 OK', [render('create_course.html',
@@ -104,7 +114,8 @@ def create_course(request):
     return '200 OK', [render('create_course.html',
                              value="create_course",
                              urls=urls,
-                             categories=site.categories,)]
+                             categories=site.categories, )]
+
 
 @add_route('/create_category/')
 def create_category(request):
@@ -115,7 +126,7 @@ def create_category(request):
             new_category = post_data['name']
             # проверить есть ли уже такая категория
             for item in site.categories:
-                print(f'идем по категориям . ищем совпадение с новой')
+                # print(f'идем по категориям . ищем совпадение с новой')
                 if item.name == new_category:
                     logger.log(f'Категория уже существует')
                     return '200 OK', [render('create_category.html',
@@ -123,7 +134,7 @@ def create_category(request):
                                              urls=urls,
                                              categories=site.categories)]
             # если нет, то создать новую
-            print(f'Создаем новую категорию')
+            # print(f'Создаем новую категорию')
             # category = None
             # if category_id:
             #     category = site.find_category_by_id(int(category_id))
@@ -139,6 +150,7 @@ def create_category(request):
                              value="create_category",
                              urls=urls,
                              categories=site.categories)]
+
 
 @add_route('/copy-course/')
 def copy_course(request):
@@ -170,6 +182,94 @@ def copy_course(request):
     else:
         error_404_view(request)
 
+'''
+
+@add_route('/student-list/')
+def student_list(request):
+    urls = request.get('urls', None)
+    return '200 OK', [render('student_list.html',
+                             value="student-list",
+                             students=site.students)]
+'''
+
+@add_route('/create-student/')
+def create_student(request):
+    urls = request.get('urls', None)
+    if 'post_params' in request and 'name' in request["post_params"]:
+        # print(f'request["post_params"]--->{request["post_params"]}')
+        name_student = request['post_params']['name']
+        # print(f'{name_student}')
+
+        for k in site.students:
+            if k.name == name_student:
+                logger.log(f'Студент с именем {name_student} уже зарегистрирован')
+                return '200 OK', [render('create_student.html',
+                                         value="create-student_view",
+                                         info_text=f'Студент с именем {name_student} уже зарегистрирован')]
+        stud_obj = site.create_user(type_='student', name=name_student)
+        site.students.append(stud_obj)
+        logger.log(f'Студент с именем {name_student} зарегистрирован в системе')
+        return '200 OK', [render('create_student.html',
+                                 value="create-student_view",
+                                 info_text=f'Студент с именем {name_student} зарегистрирован в системе')]
+    #     else:
+    #         return '200 OK', [render('create_student.html',
+    #                                  value="create-student_view")]
+    # except Exception as e:
+    #     print(f'Ошибка создания объекта студента {e}')
+    #     return '200 OK', [render('create_student.html', value="create-student_view")]
+
+    return '200 OK', [render('create_student.html',
+                             value="create-student_view")]
+
+
+
+
+@add_route('/add-student/')
+def add_student(request):
+    urls = request.get('urls', None)
+    if 'post_params' in request and 'course_name' in request["post_params"] and 'student_name' in request["post_params"]:
+        # print(f'request["post_params"]--->{request["post_params"]}')
+        name_student = request['post_params']['student_name']
+        course_name = request['post_params']['course_name']
+        student_obj = site.get_student(name_student)
+        course_obj = site.get_course(course_name)
+        if student_obj and course_obj:
+            course_obj.add_student(student_obj)
+            return '200 OK', [render('add_student.html',
+                                     info_text=f'Студент {student_obj.name} добавлен на курс {course_obj.name}',
+                                     courses=site.courses,
+                                     students=site.students)]
+
+
+    return '200 OK', [render('add_student.html',
+                             info_text="add-student_view",
+                             courses=site.courses,
+                             students=site.students)]
+
+
 def error_404_view(request):
-    print(request)
+    # print(request)
     return '404 ERROR', [b'<h1>error_404_view</h1>']
+
+@add_route('/api/')
+def course_api(request):
+    # logger.log(f'Метод view course_api передаю {site.courses}')
+    ret = BaseSerializer(site.courses).save()
+    # print(f'type()-->{type(ret)}')
+    logger.log(f'Отправка данных /api/ --->{ret}')
+    print(f'Отправка данных /api/ --->{ret}')
+    return '200 OK', [ret.encode('utf-8')]
+
+
+
+
+class CategoryListView(ListView):
+    queryset = site.categories
+    template_name = 'categories.html'
+
+
+class StudentListView(ListView):
+    queryset = site.students
+    template_name = 'student_list.html'
+
