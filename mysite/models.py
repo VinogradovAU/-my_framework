@@ -1,9 +1,18 @@
+import os
+import sys
+
 from reusepatterns.prototypes import PrototypeMixin
 from reusepatterns.observer import Subject, Observer
 import jsonpickle
 
-
+from my_orm.unitofwork import DomainObject
 from logging_mod import Logger
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(BASE_DIR)
+sys.path.append(os.path.join(BASE_DIR, 'my_orm'))
+
+
 
 logger = Logger('model')
 
@@ -20,7 +29,7 @@ class Teacher(User):
 
 
 # студент
-class Student(User):
+class Student(User, DomainObject):
     def __init__(self, name):
         self.courses = []
         logger.log(f'я в __init__ класса Student перед super().__init__({name})')
@@ -41,7 +50,7 @@ class UserFactory:
 
 
 # Категория
-class Category:
+class Category(DomainObject):
     # реестр?
     auto_id = 0
 
@@ -60,9 +69,13 @@ class Category:
 
 
 # Курс
-class Course(PrototypeMixin, Subject):
+class Course(PrototypeMixin, Subject, DomainObject):
+    # реестр
+    auto_id = 0
 
     def __init__(self, name, category):
+        self.id = Course.auto_id
+        Course.auto_id += 1
         self.name = name
         self.category = category
         self.category.courses.append(self)
@@ -110,6 +123,9 @@ class InteractiveCourse(Course):
 
 # Курс в записи
 class OfflineCourse(Course):
+    pass
+
+class StudentCourse(DomainObject):
     pass
 
 

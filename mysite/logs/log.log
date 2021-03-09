@@ -1064,3 +1064,306 @@
  + Fri Mar  5 16:02:23 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031AFB08> с именем 353535test
  + Fri Mar  5 16:02:23 2021 [model] + найден объект курса <models.OfflineCourse object at 0x031E49E8> с именем copy_353535test
  + Fri Mar  5 16:02:23 2021 [model] + add_student перед notify
+ + Mon Mar  8 21:42:52 2021 [views] + ----> Отработал index_view
+ + Mon Mar  8 21:43:02 2021 [model] + Создаем новый объект категории New_cat-1
+ + Mon Mar  8 21:43:02 2021 [views] + site.categories--->[<models.Category object at 0x0369F730>]
+ + Mon Mar  8 21:43:02 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Mon Mar  8 21:43:13 2021 [model] + Создаем новый объект категории newcat-2
+ + Mon Mar  8 21:43:13 2021 [views] + site.categories--->[<models.Category object at 0x0369F730>, <models.Category object at 0x0369F760>]
+ + Mon Mar  8 21:43:13 2021 [views] + получены POST данные: {'name': 'newcat-2'}
+ + Mon Mar  8 21:43:19 2021 [views] + В категорию New_cat-1 добавлен курс Python
+ + Mon Mar  8 21:43:30 2021 [views] + В категорию newcat-2 добавлен курс Python11
+ + Mon Mar  8 21:43:35 2021 [model] + я в методе create UserFactory c типом student
+ + Mon Mar  8 21:43:35 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Mon Mar  8 21:43:35 2021 [views] + Студент с именем AndryAndry зарегистрирован в системе
+ + Mon Mar  8 21:43:43 2021 [model] + я в методе create UserFactory c типом student
+ + Mon Mar  8 21:43:43 2021 [model] + я в __init__ класса Student перед super().__init__(Vasya Pupkin)
+ + Mon Mar  8 21:43:43 2021 [views] + Студент с именем Vasya Pupkin зарегистрирован в системе
+ + Mon Mar  8 21:43:48 2021 [model] + найден объект студент <models.Student object at 0x036D5310> с именем AndryAndry
+ + Mon Mar  8 21:43:48 2021 [model] + найден объект курса <models.OfflineCourse object at 0x036D5760> с именем Python
+ + Mon Mar  8 21:43:48 2021 [model] + add_student перед notify
+ + Mon Mar  8 21:43:51 2021 [model] + найден объект студент <models.Student object at 0x036D5310> с именем AndryAndry
+ + Mon Mar  8 21:43:51 2021 [model] + найден объект курса <models.OfflineCourse object at 0x036D5760> с именем Python
+ + Mon Mar  8 21:43:51 2021 [model] + найден объект курса <models.OfflineCourse object at 0x036D5370> с именем Python11
+ + Mon Mar  8 21:43:51 2021 [model] + add_student перед notify
+ + Mon Mar  8 21:43:53 2021 [model] + найден объект студент <models.Student object at 0x036D5310> с именем AndryAndry
+ + Mon Mar  8 21:43:53 2021 [model] + найден объект студент <models.Student object at 0x036D5D48> с именем Vasya Pupkin
+ + Mon Mar  8 21:43:53 2021 [model] + найден объект курса <models.OfflineCourse object at 0x036D5760> с именем Python
+ + Mon Mar  8 21:43:53 2021 [model] + add_student перед notify
+ + Mon Mar  8 21:44:05 2021 [model] + найден объект студент <models.Student object at 0x036D5310> с именем AndryAndry
+ + Mon Mar  8 21:44:05 2021 [model] + найден объект студент <models.Student object at 0x036D5D48> с именем Vasya Pupkin
+ + Mon Mar  8 21:44:05 2021 [model] + найден объект курса <models.OfflineCourse object at 0x036D5760> с именем Python
+ + Mon Mar  8 21:44:05 2021 [model] + найден объект курса <models.OfflineCourse object at 0x036D5370> с именем Python11
+ + Mon Mar  8 21:44:05 2021 [model] + add_student перед notify
+ + Mon Mar  8 21:44:15 2021 [views] + Внутри copy_course
+ + Mon Mar  8 21:44:15 2021 [views] + Ищем курс с именем --> Python11
+ + Mon Mar  8 21:44:15 2021 [model] + найден объект курса <models.OfflineCourse object at 0x036D5760> с именем Python
+ + Mon Mar  8 21:44:15 2021 [model] + найден объект курса <models.OfflineCourse object at 0x036D5370> с именем Python11
+ + Mon Mar  8 21:44:15 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x036D5370>
+ + Mon Mar  8 21:44:15 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x0369FFB8>
+ + Mon Mar  8 21:44:19 2021 [model] + найден объект студент <models.Student object at 0x036D5310> с именем AndryAndry
+ + Mon Mar  8 21:44:19 2021 [model] + найден объект курса <models.OfflineCourse object at 0x036D5760> с именем Python
+ + Mon Mar  8 21:44:19 2021 [model] + найден объект курса <models.OfflineCourse object at 0x036D5370> с именем Python11
+ + Mon Mar  8 21:44:19 2021 [model] + найден объект курса <models.OfflineCourse object at 0x0369FFB8> с именем copy_Python11
+ + Mon Mar  8 21:44:19 2021 [model] + add_student перед notify
+ + Mon Mar  8 23:22:47 2021 [views] + ----> Отработал index_view
+ + Mon Mar  8 23:23:03 2021 [model] + я в методе create UserFactory c типом student
+ + Mon Mar  8 23:23:03 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Mon Mar  8 23:31:59 2021 [model] + я в методе create UserFactory c типом student
+ + Mon Mar  8 23:31:59 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Mon Mar  8 23:32:03 2021 [views] + ----> Отработал index_view
+ + Mon Mar  8 23:32:04 2021 [views] + ----> Отработал index_view
+ + Mon Mar  8 23:32:12 2021 [views] + Студент с именем AndryAndry уже зарегистрирован
+ + Mon Mar  8 23:32:44 2021 [model] + я в методе create UserFactory c типом student
+ + Mon Mar  8 23:32:44 2021 [model] + я в __init__ класса Student перед super().__init__(Vasya Pupkin)
+ + Mon Mar  8 23:36:30 2021 [views] + ----> Отработал index_view
+ + Mon Mar  8 23:36:39 2021 [model] + я в методе create UserFactory c типом student
+ + Mon Mar  8 23:36:39 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Mon Mar  8 23:36:39 2021 [views] + Студент с именем AndryAndry зарегистрирован в системе
+ + Mon Mar  8 23:36:42 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Mon Mar  8 23:36:58 2021 [model] + я в методе create UserFactory c типом student
+ + Mon Mar  8 23:36:58 2021 [model] + я в __init__ класса Student перед super().__init__(Vasya Pupkin)
+ + Mon Mar  8 23:36:58 2021 [views] + Студент с именем Vasya Pupkin зарегистрирован в системе
+ + Mon Mar  8 23:37:06 2021 [model] + я в методе create UserFactory c типом student
+ + Mon Mar  8 23:37:06 2021 [model] + я в __init__ класса Student перед super().__init__(Viktor A)
+ + Mon Mar  8 23:37:06 2021 [views] + Студент с именем Viktor A зарегистрирован в системе
+ + Mon Mar  8 23:37:12 2021 [views] + Студент с именем AndryAndry уже зарегистрирован
+ + Mon Mar  8 23:37:17 2021 [views] + Студент с именем Vasya Pupkin уже зарегистрирован
+ + Mon Mar  8 23:37:22 2021 [views] + Студент с именем Viktor A уже зарегистрирован
+ + Mon Mar  8 23:37:25 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Mon Mar  8 23:37:25 2021 [model] + я в __init__ класса Student перед super().__init__(Vasya Pupkin)
+ + Mon Mar  8 23:37:25 2021 [model] + я в __init__ класса Student перед super().__init__(Viktor A)
+ + Tue Mar  9 00:00:37 2021 [views] + ----> Отработал index_view
+ + Tue Mar  9 00:00:44 2021 [model] + я в методе create UserFactory c типом student
+ + Tue Mar  9 00:00:44 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Tue Mar  9 00:00:44 2021 [views] + Студент с именем AndryAndry зарегистрирован в системе
+ + Tue Mar  9 00:00:51 2021 [model] + я в методе create UserFactory c типом student
+ + Tue Mar  9 00:00:51 2021 [model] + я в __init__ класса Student перед super().__init__(Viktor A)
+ + Tue Mar  9 00:00:51 2021 [views] + Студент с именем Viktor A зарегистрирован в системе
+ + Tue Mar  9 00:09:39 2021 [model] + Создаем новый объект категории New_cat-1
+ + Tue Mar  9 00:09:42 2021 [model] + Создаем новый объект категории newcat-2
+ + Tue Mar  9 00:10:02 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Tue Mar  9 00:10:02 2021 [model] + я в __init__ класса Student перед super().__init__(Viktor A)
+ + Tue Mar  9 00:10:09 2021 [model] + Создаем новый объект категории New_cat-1
+ + Tue Mar  9 00:12:30 2021 [model] + Создаем новый объект категории newcat-2
+ + Tue Mar  9 00:12:33 2021 [views] + Категория уже существует
+ + Tue Mar  9 00:14:09 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Tue Mar  9 00:14:09 2021 [model] + я в __init__ класса Student перед super().__init__(Viktor A)
+ + Tue Mar  9 00:14:21 2021 [model] + Создаем новый объект категории New_cat-1
+ + Tue Mar  9 00:14:24 2021 [model] + Создаем новый объект категории newcat-2
+ + Tue Mar  9 00:16:36 2021 [model] + я в методе create UserFactory c типом student
+ + Tue Mar  9 00:16:36 2021 [model] + я в __init__ класса Student перед super().__init__(Dmitry)
+ + Tue Mar  9 00:16:36 2021 [views] + Студент с именем Dmitry зарегистрирован в системе
+ + Tue Mar  9 00:16:38 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Tue Mar  9 00:16:38 2021 [model] + я в __init__ класса Student перед super().__init__(Viktor A)
+ + Tue Mar  9 00:16:38 2021 [model] + я в __init__ класса Student перед super().__init__(Dmitry)
+ + Tue Mar  9 00:23:38 2021 [views] + ----> Отработал index_view
+ + Tue Mar  9 00:23:50 2021 [model] + я в методе create UserFactory c типом student
+ + Tue Mar  9 00:23:50 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Tue Mar  9 00:23:50 2021 [views] + Студент с именем AndryAndry зарегистрирован в системе
+ + Tue Mar  9 00:23:53 2021 [model] + я в методе create UserFactory c типом student
+ + Tue Mar  9 00:23:53 2021 [model] + я в __init__ класса Student перед super().__init__(Vasya Pupkin)
+ + Tue Mar  9 00:23:53 2021 [views] + Студент с именем Vasya Pupkin зарегистрирован в системе
+ + Tue Mar  9 00:24:01 2021 [model] + Создаем новый объект категории New_cat-1
+ + Tue Mar  9 00:24:05 2021 [model] + Создаем новый объект категории newcat-2
+ + Tue Mar  9 00:26:27 2021 [model] + я в методе create UserFactory c типом student
+ + Tue Mar  9 00:26:27 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Tue Mar  9 00:26:27 2021 [views] + Студент с именем AndryAndry зарегистрирован в системе
+ + Tue Mar  9 00:26:32 2021 [model] + я в методе create UserFactory c типом student
+ + Tue Mar  9 00:26:32 2021 [model] + я в __init__ класса Student перед super().__init__(Vsya Pupkin)
+ + Tue Mar  9 00:26:33 2021 [views] + Студент с именем Vsya Pupkin зарегистрирован в системе
+ + Tue Mar  9 00:26:34 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Tue Mar  9 00:26:34 2021 [model] + я в __init__ класса Student перед super().__init__(Vsya Pupkin)
+ + Tue Mar  9 00:26:45 2021 [model] + Создаем новый объект категории Python
+ + Tue Mar  9 00:26:51 2021 [model] + Создаем новый объект категории Python2222
+ + Tue Mar  9 00:27:01 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Tue Mar  9 00:27:01 2021 [model] + я в __init__ класса Student перед super().__init__(Vsya Pupkin)
+ + Tue Mar  9 00:27:52 2021 [views] + ----> Отработал index_view
+ + Tue Mar  9 00:27:54 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Tue Mar  9 00:27:54 2021 [model] + я в __init__ класса Student перед super().__init__(Vsya Pupkin)
+ + Tue Mar  9 00:28:00 2021 [model] + найден объект студент <models.Student object at 0x02C7CC88> с именем AndryAndry
+ + Tue Mar  9 00:28:00 2021 [model] + найден объект студент <models.Student object at 0x02C7C2B0> с именем Vsya Pupkin
+ + Tue Mar  9 00:28:00 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02C99A48> с именем Python01
+ + Tue Mar  9 00:28:00 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02C99D30> с именем Python02
+ + Tue Mar  9 00:28:00 2021 [model] + add_student перед notify
+ + Tue Mar  9 00:28:02 2021 [model] + найден объект студент <models.Student object at 0x02C7CC88> с именем AndryAndry
+ + Tue Mar  9 00:28:02 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02C99A48> с именем Python01
+ + Tue Mar  9 00:28:02 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02C99D30> с именем Python02
+ + Tue Mar  9 00:28:02 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02C99BC8> с именем Python33333
+ + Tue Mar  9 00:28:02 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02C999A0> с именем Python 345
+ + Tue Mar  9 00:28:02 2021 [model] + add_student перед notify
+ + Tue Mar  9 00:28:04 2021 [model] + найден объект студент <models.Student object at 0x02C7CC88> с именем AndryAndry
+ + Tue Mar  9 00:28:04 2021 [model] + найден объект студент <models.Student object at 0x02C7C2B0> с именем Vsya Pupkin
+ + Tue Mar  9 00:28:04 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02C99A48> с именем Python01
+ + Tue Mar  9 00:28:04 2021 [model] + add_student перед notify
+ + Tue Mar  9 00:28:59 2021 [model] + найден объект студент <models.Student object at 0x02C7CC88> с именем AndryAndry
+ + Tue Mar  9 00:28:59 2021 [model] + найден объект студент <models.Student object at 0x02C7C2B0> с именем Vsya Pupkin
+ + Tue Mar  9 00:28:59 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02C99A48> с именем Python01
+ + Tue Mar  9 00:28:59 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02C99D30> с именем Python02
+ + Tue Mar  9 00:28:59 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02C99BC8> с именем Python33333
+ + Tue Mar  9 00:28:59 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02C999A0> с именем Python 345
+ + Tue Mar  9 00:28:59 2021 [model] + найден объект курса <models.OfflineCourse object at 0x02C99E38> с именем Тестовый шкаф
+ + Tue Mar  9 00:28:59 2021 [model] + add_student перед notify
+ + Tue Mar  9 00:29:11 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Tue Mar  9 00:29:11 2021 [model] + я в __init__ класса Student перед super().__init__(Vsya Pupkin)
+ + Tue Mar  9 00:30:18 2021 [model] + Создаем новый объект категории testcat1
+ + Tue Mar  9 00:30:56 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Tue Mar  9 00:30:56 2021 [model] + я в __init__ класса Student перед super().__init__(Vsya Pupkin)
+ + Tue Mar  9 14:04:21 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Tue Mar  9 14:04:21 2021 [model] + я в __init__ класса Student перед super().__init__(Vsya Pupkin)
+ + Tue Mar  9 14:07:50 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Tue Mar  9 14:07:50 2021 [model] + я в __init__ класса Student перед super().__init__(Vsya Pupkin)
+ + Tue Mar  9 14:10:19 2021 [views] + ----> Отработал index_view
+ + Tue Mar  9 14:10:26 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Tue Mar  9 14:10:26 2021 [model] + я в __init__ класса Student перед super().__init__(Vsya Pupkin)
+ + Tue Mar  9 14:10:38 2021 [model] + Создаем новый объект категории New_cat-1
+ + Tue Mar  9 14:15:11 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Tue Mar  9 14:15:11 2021 [model] + я в __init__ класса Student перед super().__init__(Vsya Pupkin)
+ + Tue Mar  9 14:15:24 2021 [model] + Создаем новый объект категории New_cat-1
+ + Tue Mar  9 14:15:24 2021 [views] + site.categories--->[<models.Category object at 0x02ECCC70>]
+ + Tue Mar  9 14:15:24 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Tue Mar  9 14:17:25 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x0333C658>]
+ + Tue Mar  9 14:17:34 2021 [model] + Создаем новый объект категории New_cat-1
+ + Tue Mar  9 14:17:34 2021 [views] + site.categories--->[<models.Category object at 0x0333CBE0>]
+ + Tue Mar  9 14:17:34 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Tue Mar  9 14:17:37 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x0333C7C0>]
+ + Tue Mar  9 14:17:37 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x0333C7C0>, <models.Category object at 0x0333CB68>]
+ + Tue Mar  9 14:17:43 2021 [views] + Категория уже существует
+ + Tue Mar  9 14:17:49 2021 [model] + Создаем новый объект категории newcat-2
+ + Tue Mar  9 14:17:49 2021 [views] + site.categories--->[<models.Category object at 0x0333CBE0>, <models.Category object at 0x0333CFD0>]
+ + Tue Mar  9 14:17:49 2021 [views] + получены POST данные: {'name': 'newcat-2'}
+ + Tue Mar  9 14:17:51 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x0333C808>]
+ + Tue Mar  9 14:17:51 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x0333C808>, <models.Category object at 0x0333CBC8>]
+ + Tue Mar  9 14:17:51 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x0333C808>, <models.Category object at 0x0333CBC8>, <models.Category object at 0x033594C0>]
+ + Tue Mar  9 14:17:54 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Tue Mar  9 14:17:54 2021 [model] + я в __init__ класса Student перед super().__init__(Vsya Pupkin)
+ + Tue Mar  9 14:18:34 2021 [views] + ----> Отработал index_view
+ + Tue Mar  9 14:18:40 2021 [model] + Создаем новый объект категории New_cat-1
+ + Tue Mar  9 14:18:40 2021 [views] + site.categories--->[<models.Category object at 0x03ACCCE8>]
+ + Tue Mar  9 14:18:40 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Tue Mar  9 14:18:43 2021 [views] + Категория уже существует
+ + Tue Mar  9 14:18:46 2021 [model] + Создаем новый объект категории newcat-2
+ + Tue Mar  9 14:18:46 2021 [views] + site.categories--->[<models.Category object at 0x03ACCCE8>, <models.Category object at 0x03ACC340>]
+ + Tue Mar  9 14:18:46 2021 [views] + получены POST данные: {'name': 'newcat-2'}
+ + Tue Mar  9 14:18:50 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x03ACCFA0>]
+ + Tue Mar  9 14:18:50 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x03ACCFA0>, <models.Category object at 0x03ACC9A0>]
+ + Tue Mar  9 14:18:58 2021 [views] + В категорию New_cat-1 добавлен курс Python
+ + Tue Mar  9 14:19:19 2021 [model] + я в методе create UserFactory c типом student
+ + Tue Mar  9 14:19:19 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Tue Mar  9 14:19:19 2021 [views] + Студент с именем AndryAndry зарегистрирован в системе
+ + Tue Mar  9 14:19:24 2021 [model] + я в методе create UserFactory c типом student
+ + Tue Mar  9 14:19:24 2021 [model] + я в __init__ класса Student перед super().__init__(Vasya Pupkin)
+ + Tue Mar  9 14:19:24 2021 [views] + Студент с именем Vasya Pupkin зарегистрирован в системе
+ + Tue Mar  9 14:19:28 2021 [model] + найден объект студент <models.Student object at 0x03AF4BB0> с именем AndryAndry
+ + Tue Mar  9 14:19:28 2021 [model] + найден объект курса <models.OfflineCourse object at 0x03AF42B0> с именем Python
+ + Tue Mar  9 14:19:28 2021 [model] + add_student перед notify
+ + Tue Mar  9 14:19:30 2021 [model] + найден объект студент <models.Student object at 0x03AF4BB0> с именем AndryAndry
+ + Tue Mar  9 14:19:30 2021 [model] + найден объект студент <models.Student object at 0x03AF46D0> с именем Vasya Pupkin
+ + Tue Mar  9 14:19:30 2021 [model] + найден объект курса <models.OfflineCourse object at 0x03AF42B0> с именем Python
+ + Tue Mar  9 14:19:30 2021 [model] + add_student перед notify
+ + Tue Mar  9 14:19:31 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x03AF4580>]
+ + Tue Mar  9 14:19:31 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x03AF4580>, <models.Category object at 0x03AF4190>]
+ + Tue Mar  9 14:19:37 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Tue Mar  9 14:19:37 2021 [model] + я в __init__ класса Student перед super().__init__(Vasya Pupkin)
+ + Tue Mar  9 15:32:08 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x03ACC6B8>]
+ + Tue Mar  9 15:32:08 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x03ACC6B8>, <models.Category object at 0x03ACCB80>]
+ + Tue Mar  9 15:32:30 2021 [views] + Внутри copy_course
+ + Tue Mar  9 15:32:30 2021 [views] + Ищем курс с именем --> Python
+ + Tue Mar  9 15:32:30 2021 [model] + найден объект курса <models.OfflineCourse object at 0x03AF42B0> с именем Python
+ + Tue Mar  9 15:32:30 2021 [views] + Поиск вернул объект --> <models.OfflineCourse object at 0x03AF42B0>
+ + Tue Mar  9 15:32:30 2021 [views] + создана копия курса --> <models.OfflineCourse object at 0x03AF4B80>
+ + Tue Mar  9 15:32:33 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Tue Mar  9 15:32:33 2021 [model] + я в __init__ класса Student перед super().__init__(Vasya Pupkin)
+ + Tue Mar  9 15:32:46 2021 [model] + найден объект студент <models.Student object at 0x03AF4BB0> с именем AndryAndry
+ + Tue Mar  9 15:32:46 2021 [model] + найден объект студент <models.Student object at 0x03AF46D0> с именем Vasya Pupkin
+ + Tue Mar  9 15:32:46 2021 [model] + найден объект курса <models.OfflineCourse object at 0x03AF42B0> с именем Python
+ + Tue Mar  9 15:32:46 2021 [model] + найден объект курса <models.OfflineCourse object at 0x03AF4B80> с именем copy_Python
+ + Tue Mar  9 15:32:46 2021 [model] + add_student перед notify
+ + Tue Mar  9 15:32:48 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Tue Mar  9 15:32:48 2021 [model] + я в __init__ класса Student перед super().__init__(Vasya Pupkin)
+ + Tue Mar  9 15:34:01 2021 [views] + ----> Отработал index_view
+ + Tue Mar  9 15:34:04 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Tue Mar  9 15:34:04 2021 [model] + я в __init__ класса Student перед super().__init__(Vasya Pupkin)
+ + Tue Mar  9 15:34:14 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x034BC778>]
+ + Tue Mar  9 15:34:14 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x034BC778>, <models.Category object at 0x034BCD00>]
+ + Tue Mar  9 15:38:34 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x02DBD670>]
+ + Tue Mar  9 15:38:34 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x02DBD670>, <models.Category object at 0x02DBD640>]
+ + Tue Mar  9 15:38:35 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x02DBD778>]
+ + Tue Mar  9 15:38:35 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x02DBD778>, <models.Category object at 0x02DBD688>]
+ + Tue Mar  9 15:38:42 2021 [views] + Внутри copy_course
+ + Tue Mar  9 15:38:42 2021 [views] + Ищем курс с именем --> newcat-2
+ + Tue Mar  9 15:38:42 2021 [views] + Поиск вернул объект --> None
+ + Tue Mar  9 15:38:42 2021 [views] + Не удалось создать комию курса newcat-2
+ + Tue Mar  9 15:38:54 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x02DBDFE8>]
+ + Tue Mar  9 15:38:54 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x02DBDFE8>, <models.Category object at 0x02DBDE50>]
+ + Tue Mar  9 15:38:57 2021 [views] + Внутри copy_course
+ + Tue Mar  9 15:38:57 2021 [views] + Ищем курс с именем --> New_cat-1
+ + Tue Mar  9 15:38:57 2021 [views] + Поиск вернул объект --> None
+ + Tue Mar  9 15:38:57 2021 [views] + Не удалось создать комию курса New_cat-1
+ + Tue Mar  9 15:43:47 2021 [views] + ----> Отработал index_view
+ + Tue Mar  9 15:43:48 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x02DBDC40>]
+ + Tue Mar  9 15:43:48 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x02DBDC40>, <models.Category object at 0x02DBD9D0>]
+ + Tue Mar  9 15:43:51 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x02DBDEF8>]
+ + Tue Mar  9 15:43:51 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x02DBDEF8>, <models.Category object at 0x02DBDC40>]
+ + Tue Mar  9 15:44:03 2021 [views] + Внутри copy_course
+ + Tue Mar  9 15:44:03 2021 [views] + Ищем курс с именем --> New_cat-1
+ + Tue Mar  9 15:44:03 2021 [views] + Поиск вернул объект --> None
+ + Tue Mar  9 15:44:03 2021 [views] + Не удалось создать комию курса New_cat-1
+ + Tue Mar  9 15:44:32 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x02DDB100>]
+ + Tue Mar  9 15:44:32 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x02DDB100>, <models.Category object at 0x02DDB970>]
+ + Tue Mar  9 15:45:07 2021 [views] + ----> Отработал index_view
+ + Tue Mar  9 15:45:14 2021 [model] + я в методе create UserFactory c типом student
+ + Tue Mar  9 15:45:14 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Tue Mar  9 15:45:14 2021 [views] + Студент с именем AndryAndry зарегистрирован в системе
+ + Tue Mar  9 15:45:16 2021 [model] + я в методе create UserFactory c типом student
+ + Tue Mar  9 15:45:16 2021 [model] + я в __init__ класса Student перед super().__init__(Vasya Pupkin)
+ + Tue Mar  9 15:45:16 2021 [views] + Студент с именем Vasya Pupkin зарегистрирован в системе
+ + Tue Mar  9 15:45:29 2021 [model] + Создаем новый объект категории New_cat-1
+ + Tue Mar  9 15:45:29 2021 [views] + site.categories--->[<models.Category object at 0x02BCCE20>]
+ + Tue Mar  9 15:45:29 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Tue Mar  9 15:45:32 2021 [model] + Создаем новый объект категории newcat-2
+ + Tue Mar  9 15:45:32 2021 [views] + site.categories--->[<models.Category object at 0x02BCCE20>, <models.Category object at 0x02BCC8F8>]
+ + Tue Mar  9 15:45:32 2021 [views] + получены POST данные: {'name': 'newcat-2'}
+ + Tue Mar  9 15:45:33 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x02BF5400>]
+ + Tue Mar  9 15:45:33 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x02BF5400>, <models.Category object at 0x02BF5058>]
+ + Tue Mar  9 15:45:42 2021 [views] + В категорию New_cat-1 добавлен курс Python
+ + Tue Mar  9 15:45:49 2021 [views] + В категорию newcat-2 добавлен курс HTML
+ + Tue Mar  9 15:45:51 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x02BF5FB8>]
+ + Tue Mar  9 15:45:51 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x02BF5FB8>, <models.Category object at 0x02BF5688>]
+ + Tue Mar  9 15:46:05 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x02BF5430>]
+ + Tue Mar  9 15:46:05 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x02BF5430>, <models.Category object at 0x02BF5CD0>]
+ + Tue Mar  9 15:46:10 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x02BF5418>]
+ + Tue Mar  9 15:46:10 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x02BF5418>, <models.Category object at 0x02BF5700>]
+ + Tue Mar  9 15:46:14 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x02BF5718>]
+ + Tue Mar  9 15:46:14 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x02BF5718>, <models.Category object at 0x02BF5418>]
+ + Tue Mar  9 15:49:04 2021 [views] + ----> Отработал index_view
+ + Tue Mar  9 15:49:09 2021 [model] + Создаем новый объект категории New_cat-1
+ + Tue Mar  9 15:49:09 2021 [views] + site.categories--->[<models.Category object at 0x02EDC790>]
+ + Tue Mar  9 15:49:09 2021 [views] + получены POST данные: {'name': 'New_cat-1'}
+ + Tue Mar  9 15:49:11 2021 [model] + Создаем новый объект категории newcat-2
+ + Tue Mar  9 15:49:11 2021 [views] + site.categories--->[<models.Category object at 0x02EDC790>, <models.Category object at 0x02EDCD00>]
+ + Tue Mar  9 15:49:11 2021 [views] + получены POST данные: {'name': 'newcat-2'}
+ + Tue Mar  9 15:49:13 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x02F051F0>]
+ + Tue Mar  9 15:49:13 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x02F051F0>, <models.Category object at 0x02F050E8>]
+ + Tue Mar  9 15:49:21 2021 [model] + я в методе create UserFactory c типом student
+ + Tue Mar  9 15:49:21 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Tue Mar  9 15:49:21 2021 [views] + Студент с именем AndryAndry зарегистрирован в системе
+ + Tue Mar  9 15:49:24 2021 [model] + я в методе create UserFactory c типом student
+ + Tue Mar  9 15:49:24 2021 [model] + я в __init__ класса Student перед super().__init__(Vasya Pupkin)
+ + Tue Mar  9 15:49:24 2021 [views] + Студент с именем Vasya Pupkin зарегистрирован в системе
+ + Tue Mar  9 15:49:31 2021 [views] + В категорию New_cat-1 добавлен курс Python
+ + Tue Mar  9 15:49:42 2021 [views] + В категорию newcat-2 добавлен курс HTML, CSS
+ + Tue Mar  9 15:51:20 2021 [views] + ----> Отработал index_view
+ + Tue Mar  9 15:51:22 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x0378CAF0>]
+ + Tue Mar  9 15:51:22 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x0378CAF0>, <models.Category object at 0x0378C688>]
+ + Tue Mar  9 15:51:25 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Tue Mar  9 15:51:25 2021 [model] + я в __init__ класса Student перед super().__init__(Vasya Pupkin)
+ + Tue Mar  9 15:51:29 2021 [model] + я в __init__ класса Student перед super().__init__(AndryAndry)
+ + Tue Mar  9 15:51:29 2021 [model] + я в __init__ класса Student перед super().__init__(Vasya Pupkin)
+ + Tue Mar  9 15:57:31 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x0313D670>]
+ + Tue Mar  9 15:57:31 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x0313D670>, <models.Category object at 0x0313D640>]
+ + Tue Mar  9 16:05:43 2021 [model] + я в методе create UserFactory c типом student
+ + Tue Mar  9 16:05:43 2021 [model] + я в __init__ класса Student перед super().__init__(Bob)
+ + Tue Mar  9 16:05:43 2021 [views] + Студент с именем Bob зарегистрирован в системе
+ + Tue Mar  9 16:10:15 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x0328DDC0>]
+ + Tue Mar  9 16:10:15 2021 [mappers] + CategoryMapper-читаем список категорий--получаем result: [<models.Category object at 0x0328DDC0>, <models.Category object at 0x0328DCB8>]

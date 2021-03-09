@@ -10,12 +10,17 @@ import logging_mod
 
 from models import TrainingSite, EmailNotifier, SmsNotifier, BaseSerializer
 from cbv_classes import ListView, CreateView
+from my_orm import UnitOfWork, DomainObject
+from mappers import MapperRegistry
 
 logger = logging_mod.Logger('views')
 site = TrainingSite()
 email_notifier = EmailNotifier()
 sms_notifier = SmsNotifier()
 urlpatterns = {}
+
+UnitOfWork.new_current()
+UnitOfWork.get_current().set_mapper_registry(MapperRegistry)
 
 
 def add_route(url):
@@ -77,11 +82,14 @@ class Courses:
     def __call__(self, request):
         urls = request.get('urls', None)
         get_params = request.get('get_params', None)
+        mapper = MapperRegistry.get_current_mapper('course')
+        cou = mapper.all()
 
+        print(f'courses---->{cou}')
         return '200 OK', [render('courses.html',
                                  value="courses_view",
                                  urls=urls,
-                                 courses=site.courses)]
+                                 courses=cou)]
 
 
 @add_route('/create_course/')
@@ -103,6 +111,8 @@ def create_course(request):
             course.observers.append(email_notifier)
             course.observers.append(sms_notifier)
             site.courses.append(course)
+            course.mark_new()
+            UnitOfWork.get_current().commit()
             logger.log(f"В категорию {cat_obj.name} добавлен курс {request['post_params']['name']}")
             return '200 OK', [render('create_course.html',
                                      value=f"В категорию {cat_obj.name} добавлен курс {request['post_params']['name']}",
@@ -141,6 +151,8 @@ def create_category(request):
 
             new_category_obj = site.create_category(new_category)
             site.categories.append(new_category_obj)
+            new_category_obj.mark_new()
+            UnitOfWork.get_current().commit()
             logger.log(f'site.categories--->{site.categories}')
 
             logger.log(f'получены POST данные: {post_data}')
@@ -168,6 +180,8 @@ def copy_course(request):
             new_course = source_course_obj.clone()
             new_course.name = new_name
             site.courses.append(new_course)
+            new_course.mark_new()
+            UnitOfWork.get_current().commit()
             logger.log(f'создана копия курса --> {new_course}')
             return '200 OK', [render('courses.html',
                                      value="courses_view",
@@ -208,6 +222,8 @@ def create_student(request):
                                          info_text=f'Студент с именем {name_student} уже зарегистрирован')]
         stud_obj = site.create_user(type_='student', name=name_student)
         site.students.append(stud_obj)
+        stud_obj.mark_new()
+        UnitOfWork.get_current().commit()
         logger.log(f'Студент с именем {name_student} зарегистрирован в системе')
         return '200 OK', [render('create_student.html',
                                  value="create-student_view",
@@ -268,8 +284,16 @@ class CategoryListView(ListView):
     queryset = site.categories
     template_name = 'categories.html'
 
+    def get_queryset(self):
+        mapper = MapperRegistry.get_current_mapper('category')
+        return mapper.all()
+
 
 class StudentListView(ListView):
     queryset = site.students
     template_name = 'student_list.html'
+
+    def get_queryset(self):
+        mapper = MapperRegistry.get_current_mapper('student')
+        return mapper.all()
 
