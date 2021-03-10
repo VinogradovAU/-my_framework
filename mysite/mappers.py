@@ -99,6 +99,15 @@ class CategoryMapper:
             logger.log(f'CategoryMapper-читаем список категорий--получаем result: {result}')
         return result
 
+    def find_by_name(self, name):
+        statement = f"SELECT id FROM {self.tablename} WHERE name=?"
+        self.cursor.execute(statement, (name,))
+        result = self.cursor.fetchone()
+        if result:
+            return Category(*result)
+        else:
+            raise RecordNotFoundException(f'record with name={name} not found')
+
     def find_by_id(self, id):
         statement = f"SELECT id, name FROM {self.tablename} WHERE id=?"
         self.cursor.execute(statement, (id,))
@@ -147,14 +156,14 @@ class CourseMapper:
         result = []
         for item in self.cursor.fetchall():
             print(f'item--->{item}')
-            id, name, category = item
-            course = Course(name, category)
+            id, name, category_id = item
+            course = Course(name, category_id)
             course.id = id
             result.append(course)
         return result
 
     def find_by_id(self, id):
-        statement = f"SELECT id, name FROM {self.tablename} WHERE id=?"
+        statement = f"SELECT name, category_id FROM {self.tablename} WHERE id=?"
         self.cursor.execute(statement, (id,))
         result = self.cursor.fetchone()
         if result:
@@ -163,8 +172,8 @@ class CourseMapper:
             raise RecordNotFoundException(f'record with id={id} not found')
 
     def insert(self, obj):
-        statement = f"INSERT INTO {self.tablename} (name) VALUES (?)"
-        self.cursor.execute(statement, (obj.name,))
+        statement = f"INSERT INTO {self.tablename} (name, category_id) VALUES (?, ?)"
+        self.cursor.execute(statement, (obj.name, obj.category_id))
         try:
             self.connection.commit()
         except Exception as e:

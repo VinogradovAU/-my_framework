@@ -12,8 +12,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(BASE_DIR)
 sys.path.append(os.path.join(BASE_DIR, 'my_orm'))
 
-
-
 logger = Logger('model')
 
 
@@ -68,28 +66,43 @@ class Category(DomainObject):
         return result
 
 
-# Курс
 class Course(PrototypeMixin, Subject, DomainObject):
-    # реестр
-    auto_id = 0
 
-    def __init__(self, name, category):
-        self.id = Course.auto_id
-        Course.auto_id += 1
+    def __init__(self, name, category_id):
+        self.id = id
         self.name = name
-        self.category = category
-        self.category.courses.append(self)
+        self.category_id = category_id
         self.students = []
         super().__init__()
-
-    def __getitem__(self, item):
-        return self.students[item]
 
     def add_student(self, student: Student):
         self.students.append(student)
         student.courses.append(self)
         logger.log(f'add_student перед notify')
         self.notify()
+
+# Курс
+# class Course(PrototypeMixin, Subject, DomainObject):
+#     # реестр
+#     auto_id = 0
+#
+#     def __init__(self, name, category):
+#         self.id = Course.auto_id
+#         Course.auto_id += 1
+#         self.name = name
+#         self.category = category
+#         self.category.courses.append(self)
+#         self.students = []
+#         super().__init__()
+#
+#     def __getitem__(self, item):
+#         return self.students[item]
+#
+#     def add_student(self, student: Student):
+#         self.students.append(student)
+#         student.courses.append(self)
+#         logger.log(f'add_student перед notify')
+#         self.notify()
 
 class SmsNotifier(Observer):
 
@@ -117,13 +130,13 @@ class BaseSerializer:
 
 # Интерактивный курс
 class InteractiveCourse(Course):
-    def __init__(self, student):
-        self.students=[]
+    pass
 
 
 # Курс в записи
 class OfflineCourse(Course):
     pass
+
 
 class StudentCourse(DomainObject):
     pass
@@ -137,8 +150,8 @@ class CourseFactory:
     }
 
     @classmethod
-    def create(cls, type_, name, category):
-        return cls.types[type_](name, category)
+    def create(cls, type_, name, category_id):
+        return cls.types[type_](name, category_id)
 
 
 # Основной класс - интерфейс проекта
@@ -166,8 +179,8 @@ class TrainingSite:
         raise Exception(f'Нет категории с id = {id}')
 
     @staticmethod
-    def create_course(type_, name, category):
-        return CourseFactory.create(type_, name, category)
+    def create_course(type_, name, category_id):
+        return CourseFactory.create(type_, name, category_id)
 
     def get_course(self, name) -> Course:
         for item in self.courses:

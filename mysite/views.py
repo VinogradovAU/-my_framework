@@ -71,6 +71,7 @@ def categories_view(request):
                              categories=site.categories)]
 '''
 
+
 @add_route('/style.css/')
 @logging_mod.debug
 def css_view(request):
@@ -84,11 +85,17 @@ class Courses:
         get_params = request.get('get_params', None)
         mapper = MapperRegistry.get_current_mapper('course')
         cou = mapper.all()
+        cats = MapperRegistry.get_current_mapper('category')
+        cats_all = cats.all()
+        cats_dict = {}
+        for k in cats_all:
+            cats_dict[k.id-1] = k.name
 
-        print(f'courses---->{cou}')
+        print(f'cats_dict---->{cats_dict}')
         return '200 OK', [render('courses.html',
                                  value="courses_view",
                                  urls=urls,
+                                 cats_dict=cats_dict,
                                  courses=cou)]
 
 
@@ -107,7 +114,7 @@ def create_course(request):
             type_of_course = 'interactive'
             if request["post_params"]['on_off_line']:
                 type_of_course = 'OfflineCourse'
-            course = site.create_course(type_of_course, request['post_params']['name'], cat_obj)
+            course = site.create_course(type_of_course, request['post_params']['name'], cat_obj.id)
             course.observers.append(email_notifier)
             course.observers.append(sms_notifier)
             site.courses.append(course)
@@ -196,6 +203,7 @@ def copy_course(request):
     else:
         error_404_view(request)
 
+
 '''
 
 @add_route('/student-list/')
@@ -205,6 +213,7 @@ def student_list(request):
                              value="student-list",
                              students=site.students)]
 '''
+
 
 @add_route('/create-student/')
 def create_student(request):
@@ -239,12 +248,11 @@ def create_student(request):
                              value="create-student_view")]
 
 
-
-
 @add_route('/add-student/')
 def add_student(request):
     urls = request.get('urls', None)
-    if 'post_params' in request and 'course_name' in request["post_params"] and 'student_name' in request["post_params"]:
+    if 'post_params' in request and 'course_name' in request["post_params"] and 'student_name' in request[
+        "post_params"]:
         # print(f'request["post_params"]--->{request["post_params"]}')
         name_student = request['post_params']['student_name']
         course_name = request['post_params']['course_name']
@@ -257,7 +265,6 @@ def add_student(request):
                                      courses=site.courses,
                                      students=site.students)]
 
-
     return '200 OK', [render('add_student.html',
                              info_text="add-student_view",
                              courses=site.courses,
@@ -268,6 +275,7 @@ def error_404_view(request):
     # print(request)
     return '404 ERROR', [b'<h1>error_404_view</h1>']
 
+
 @add_route('/api/')
 def course_api(request):
     # logger.log(f'Метод view course_api передаю {site.courses}')
@@ -276,8 +284,6 @@ def course_api(request):
     logger.log(f'Отправка данных /api/ --->{ret}')
     print(f'Отправка данных /api/ --->{ret}')
     return '200 OK', [ret.encode('utf-8')]
-
-
 
 
 class CategoryListView(ListView):
@@ -296,4 +302,3 @@ class StudentListView(ListView):
     def get_queryset(self):
         mapper = MapperRegistry.get_current_mapper('student')
         return mapper.all()
-

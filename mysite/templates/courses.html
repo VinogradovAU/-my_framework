@@ -19,7 +19,7 @@
                 <form action = '/copy-course' method='post'>
                     <input type="hidden" name="name" value={{course.name}}>
                     <ul>
-                        <li>{{course.category.name}}------>{{course.name}}
+                        <li>{{cats_dict[course.category_id]}}------>{{course.name}}
                             <span>
                                 <input type="submit" value="скопировать">
                             </span>
