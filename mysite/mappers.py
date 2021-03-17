@@ -1,8 +1,8 @@
 import sqlite3
 from models import Student, Category, Course
 from logging_mod import Logger
-logger = Logger('mappers')
 
+logger = Logger('mappers')
 
 connection = sqlite3.connect('patterns.sqlite')
 
@@ -33,6 +33,7 @@ class StudentMapper:
         self.connection = connection
         self.cursor = connection.cursor()
         self.tablename = 'student'
+        self.tbl_course_student = 'course_student'
 
     def all(self):
         statement = f'SELECT * from {self.tablename}'
@@ -45,6 +46,17 @@ class StudentMapper:
             result.append(student)
         return result
 
+    def find_by_name(self, name):
+        statement = f"SELECT id FROM {self.tablename} WHERE name=?"
+        self.cursor.execute(statement, (name,))
+        result = self.cursor.fetchone()
+        if result:
+            new_obj = Student(*result)
+            new_obj.id = result
+        else:
+            raise RecordNotFoundException(f'record with name={name} not found')
+
+
     def find_by_id(self, id):
         statement = f"SELECT id, name FROM {self.tablename} WHERE id=?"
         self.cursor.execute(statement, (id,))
@@ -53,6 +65,25 @@ class StudentMapper:
             return Student(*result)
         else:
             raise RecordNotFoundException(f'record with id={id} not found')
+
+    def add_course(self, course_id: int, student_id: int):
+        logger.log(f'данные для записи в таблицу course_student [course_id: {course_id} , student_id: {student_id}]')
+        statement = f"INSERT INTO {self.tbl_course_student} (course_id, student_id) VALUES (?, ?)"
+        self.cursor.execute(statement, (course_id, student_id,))
+        try:
+            self.connection.commit()
+        except Exception as e:
+            raise DbCommitException(e.args)
+        logger.log(f'добавлена запись в таблицу course_student [course_id-{course_id} , student_id-{student_id}]')
+
+    def get_courses(self, student_id):
+        statement = f'SELECT course_id from {self.tbl_course_student} WHERE student_id=?'
+        self.cursor.execute(statement, (student_id,))
+        result = []
+        for item in self.cursor.fetchall():
+            result.append(item)
+        print(f'get_courses result: {result}')
+        return result
 
     def insert(self, obj):
         statement = f"INSERT INTO {self.tablename} (name) VALUES (?)"
@@ -162,6 +193,15 @@ class CourseMapper:
             result.append(course)
         return result
 
+    def find_by_name(self, name) -> int:
+        statement = f"SELECT id FROM {self.tablename} WHERE name=?"
+        self.cursor.execute(statement, (name,))
+        result = self.cursor.fetchone()
+        if result:
+            return result[0]
+        else:
+            raise RecordNotFoundException(f'record with name={name} not found')
+
     def find_by_id(self, id):
         statement = f"SELECT name, category_id FROM {self.tablename} WHERE id=?"
         self.cursor.execute(statement, (id,))
@@ -195,6 +235,7 @@ class CourseMapper:
             self.connection.commit()
         except Exception as e:
             raise DbDeleteException(e.args)
+
 
 class MapperRegistry:
     mappers = {

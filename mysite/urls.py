@@ -10,8 +10,5 @@ urlpatterns = {
     '/style.css/': views.css_view,
     '/categories/': views.CategoryListView(),
     '/student-list/': views.StudentListView(),
-
 }
 urlpatterns.update(views.urlpatterns)
-
-

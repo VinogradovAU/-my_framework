@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+     {% block title %}
+        <title>
+            DEBUG
+        </title>
+     {% endblock %}
+{% block content %}
+<h1>Страница категорий</h1>
+<h2>{{value}}</h2>
+        {% if not objects_list %}
+        <h2>Вывод DEBUG информации</h2>
+        {% endif %}
+        <table class="mytable">
+            {% for item in students %}
+            <tr>
+                <td>{{item.id}}--->{{item.name}}
+                    {% for cur in item.courses %}
+                    {{cur.name}};
+                    {% endfor %}
+
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+         <table class="mytable">
+            {% for item in courses %}
+            <tr><td>{{item.name}}--->id категории в БД: {{item.category_id}}</td></tr>
+            {% endfor %}
+        </table>
+         <table class="mytable">
+            {% for item in categories %}
+            <tr><td>{{item.id}}--->{{item.name}}</td></tr>
+            {% endfor %}
+        </table>
+{% endblock %}
+

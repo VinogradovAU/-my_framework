@@ -23,8 +23,6 @@ except Exception as e:
     exit(1)
 
 
-
-
 # Front Controller
 def secret_front(request):
     request['secret'] = 'some secret'

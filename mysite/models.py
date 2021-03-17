@@ -28,6 +28,8 @@ class Teacher(User):
 
 # студент
 class Student(User, DomainObject):
+    id = None
+
     def __init__(self, name):
         self.courses = []
         logger.log(f'я в __init__ класса Student перед super().__init__({name})')
@@ -80,6 +82,7 @@ class Course(PrototypeMixin, Subject, DomainObject):
         student.courses.append(self)
         logger.log(f'add_student перед notify')
         self.notify()
+
 
 # Курс
 # class Course(PrototypeMixin, Subject, DomainObject):
@@ -139,7 +142,10 @@ class OfflineCourse(Course):
 
 
 class StudentCourse(DomainObject):
-    pass
+
+    def __init__(self, student, course):
+        self.student_id = student.id
+        self.course_id = course.id
 
 
 # Фабрика курсов
@@ -161,6 +167,7 @@ class TrainingSite:
         self.students = []
         self.courses = []
         self.categories = []
+
 
     @staticmethod
     def create_user(type_, name):

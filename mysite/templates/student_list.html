@@ -8,14 +8,21 @@
 
 {% block content %}
     <h1>Список студентов</h1>
-    <ul>
+    <ul style="margin-left: 40px;">
 
         {% for item in objects_list %}
         <li>
             {{item.name}}:
-            {% for course in item.courses %}
-                {{course.name}};
-            {% endfor %}
+            {% if not item.courses %}
+                Студен не записан ни на один курс!
+            {% endif %}
+
+            {% if item.courses %}
+                {% for course in item.courses %}
+                    {{course.name}};
+                {% endfor %}
+            {% endif %}
+
         </li>
         {% endfor %}
     </ul>

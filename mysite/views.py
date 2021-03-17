@@ -15,6 +15,23 @@ from mappers import MapperRegistry
 
 logger = logging_mod.Logger('views')
 site = TrainingSite()
+
+# загружаем списки объектами из БД (если происходит перезагрузка сайта/скрипта)
+if not site.students:
+    result = MapperRegistry.get_current_mapper('student').all()
+    site.students = result
+    for k in site.students:
+        print(f'name:{k.name} -----> id: {k.id}')
+
+if not site.courses:
+    result = MapperRegistry.get_current_mapper('course').all()
+    site.courses = result
+
+if not site.categories:
+    result = MapperRegistry.get_current_mapper('category').all()
+    site.categories = result
+
+
 email_notifier = EmailNotifier()
 sms_notifier = SmsNotifier()
 urlpatterns = {}
@@ -79,17 +96,50 @@ def css_view(request):
     return '222 OK', [render('style.css', folder='./static/')]
 
 
+@add_route('/deb/')
+def debug_view(request):
+    urls = request.get('urls', None)
+    print(f'site.students--->{site.students}')
+    for k in site.students:
+        print(k.courses)
+    print(f'site.courses--->{site.courses}')
+    print(f'site.categories--->{site.categories}')
+    return '200 OK', [render('deb.html',
+                             urls=urls,
+                             students=site.students,
+                             courses=site.courses,
+                             categories=site.categories)]
+
+
 class Courses:
     def __call__(self, request):
         urls = request.get('urls', None)
         get_params = request.get('get_params', None)
         mapper = MapperRegistry.get_current_mapper('course')
         cou = mapper.all()
-        cats = MapperRegistry.get_current_mapper('category')
-        cats_all = cats.all()
+        type_of_course = 'interactive'
+        # проверяю есть ли объекты курсов в списке site.course
+        if site.courses:
+            for item in cou:
+                in_list = False
+                for el in site.courses:
+                    if item.name == el.name and item.category_id == el.category_id:
+                        in_list = True
+                if not in_list:
+                    # не нашли в списке. надо создать объект и положить в список
+                    course = site.create_course(type_of_course, item.name, item.category_id)
+                    site.courses.append(course)
+
+        else:
+            # создаем объекты курсов и загружаем их в список
+            for item in cou:
+                course = site.create_course(type_of_course, item.name, item.category_id)
+                site.courses.append(course)
+
+        cats_all = MapperRegistry.get_current_mapper('category').all()
         cats_dict = {}
         for k in cats_all:
-            cats_dict[k.id-1] = k.name
+            cats_dict[k.id - 1] = k.name
 
         print(f'cats_dict---->{cats_dict}')
         return '200 OK', [render('courses.html',
@@ -118,8 +168,16 @@ def create_course(request):
             course.observers.append(email_notifier)
             course.observers.append(sms_notifier)
             site.courses.append(course)
+
+            # создаем новую запись о курсе в БД (имя и id категории)
             course.mark_new()
             UnitOfWork.get_current().commit()
+
+            # получаем id курса из БД, чтобы вписать его в объект класса находящийся в списке site.courses
+            curs_id = MapperRegistry.get_current_mapper('course').find_by_name(course.name)
+            course_obj = site.get_course(course.name)
+            course_obj.id = curs_id
+
             logger.log(f"В категорию {cat_obj.name} добавлен курс {request['post_params']['name']}")
             return '200 OK', [render('create_course.html',
                                      value=f"В категорию {cat_obj.name} добавлен курс {request['post_params']['name']}",
@@ -182,23 +240,34 @@ def copy_course(request):
         logger.log(f'Ищем курс с именем --> {old_course}')
         source_course_obj = site.get_course(old_course)
         logger.log(f'Поиск вернул объект --> {source_course_obj}')
+
+        # формируем список категорий длоя вывода на страницу
+        cats_all = MapperRegistry.get_current_mapper('category').all()
+        cats_dict = {}
+        for k in cats_all:
+            cats_dict[k.id - 1] = k.name
+
         if source_course_obj:
             new_name = f'copy_{old_course}'
             new_course = source_course_obj.clone()
             new_course.name = new_name
-            site.courses.append(new_course)
+
             new_course.mark_new()
             UnitOfWork.get_current().commit()
+            print(new_course.__dict__)
+            site.courses.append(new_course)
             logger.log(f'создана копия курса --> {new_course}')
             return '200 OK', [render('courses.html',
                                      value="courses_view",
                                      urls=urls,
+                                     cats_dict=cats_dict,
                                      courses=site.courses)]
         else:
-            logger.log(f'Не удалось создать комию курса {old_course}')
+            logger.log(f'Не удалось создать копию курса {old_course}')
             return '200 OK', [render('courses.html',
                                      value="courses_view",
                                      urls=urls,
+                                     cats_dict=cats_dict,
                                      courses=site.courses)]
     else:
         error_404_view(request)
@@ -251,6 +320,13 @@ def create_student(request):
 @add_route('/add-student/')
 def add_student(request):
     urls = request.get('urls', None)
+    # if not site.students:
+    #     result = MapperRegistry.get_current_mapper('student').all()
+    #     site.students = result
+    # if not site.courses:
+    #     result = MapperRegistry.get_current_mapper('course').all()
+    #     site.courses = result
+
     if 'post_params' in request and 'course_name' in request["post_params"] and 'student_name' in request[
         "post_params"]:
         # print(f'request["post_params"]--->{request["post_params"]}')
@@ -258,12 +334,19 @@ def add_student(request):
         course_name = request['post_params']['course_name']
         student_obj = site.get_student(name_student)
         course_obj = site.get_course(course_name)
+        student_id_from_db = MapperRegistry.get_current_mapper('student').find_by_name(name_student)
+        course_id_from_db = MapperRegistry.get_current_mapper('course').find_by_name(course_name)
+
+        # записывам данные в БД (id курса, id студента)
+        MapperRegistry.get_current_mapper('student').add_course(course_id_from_db, student_obj.id)
+
         if student_obj and course_obj:
             course_obj.add_student(student_obj)
             return '200 OK', [render('add_student.html',
                                      info_text=f'Студент {student_obj.name} добавлен на курс {course_obj.name}',
                                      courses=site.courses,
                                      students=site.students)]
+
 
     return '200 OK', [render('add_student.html',
                              info_text="add-student_view",
@@ -302,3 +385,17 @@ class StudentListView(ListView):
     def get_queryset(self):
         mapper = MapperRegistry.get_current_mapper('student')
         return mapper.all()
+
+    def get_context_data(self):
+        queryset = self.get_queryset()
+        context_object_name = super().get_context_object_name()
+        logger.log(f'context_object_name = {context_object_name}')
+        for el in queryset:
+            course_ids = MapperRegistry.get_current_mapper('student').get_courses(el.id)
+            for k in course_ids:
+                for course in site.courses:
+                    if course.category_id == k[0]-1:
+                        el.courses.append(course)
+
+        context = {context_object_name: queryset}
+        return context
